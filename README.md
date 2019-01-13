@@ -43,6 +43,11 @@ This application is a text-based roleplaying game. It is a classic, dungeon-craw
 
 ## Setup/Installation Requirements
 
+Live site is at: https://lukevandekieft.github.io/borf-quest/
+
+
+To download and edit:
+
 * Get file from Github.
 
       $ git clone https://github.com/lukevandekieft/borf-quest.git
