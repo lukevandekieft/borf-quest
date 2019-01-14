@@ -1,0 +1,147 @@
+@import "./variables.scss";
+
+//Start Screen
+#goblinQuest {
+  font-size: 1.5em;
+  line-height: .98em;
+  padding:-1px;
+  overflow: hidden;
+}
+
+#borfPortrait {
+  margin: 0;
+}
+
+#riseOfBorf {
+  font-size: .5em;
+  line-height: .98em;
+  padding:-1px;
+  overflow: hidden;
+}
+
+//Location Art
+#borfCastle {
+  font-size: 10px;
+  width: 1200px;
+  overflow: hidden;
+  margin-left: 27%;
+}
+
+#innImage, #placeHolder {
+  font-size: .43em;
+  margin-left: 40%;
+  width: 800px;
+}
+
+#forest {
+  font-size: .4em;
+  margin-left: 35%;
+  width:900px;
+}
+
+#throneRoom {
+  font-size: .4em;
+  width: 1700px;
+  margin-left: 25%;
+}
+
+//Character Menu
+#characterPortrait {
+  font-size: .25em;
+  margin-bottom: .5%;
+}
+
+@media screen and (min-width: $mediaQuery2nd + 1) and (max-width: $mediaQuery1st) {
+  //Start Screen
+  #goblinQuest{
+    font-size: 1em;
+    line-height: .98em;
+  }
+
+  #borfPortrait {
+    font-size: 9px;
+  }
+
+  #riseOfBorf {
+    font-size: 9px;
+  }
+
+  //Location Art
+  #borfCastle {
+    font-size: 10px;
+    margin-left: 9%;
+    width: 1000px;
+    overflow: hidden;
+  }
+
+  #innImage {
+    font-size: 10px;
+    margin-left: 43%;
+  }
+
+  #forest {
+    font-size: 10px;
+    margin-left: 34%;
+  }
+
+  #throneRoom {
+    font-size: 10px;
+    margin-left: 12%;
+    width: 930px;
+  }
+
+  //Character Menu
+  #characterPortrait {
+    font-size: .3em;
+    margin-bottom: .5%;
+    line-height: 1.25em;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: $mediaQuery2nd) {
+  //Start Screen
+  #goblinQuest{
+    font-size: .80em;
+    line-height: .98em;
+  }
+
+  #borfPortrait {
+    font-size: 7px;
+  }
+
+  #riseOfBorf {
+    font-size: 7px;
+  }
+
+  //Location Art
+  #borfCastle {
+    font-size: 8px;
+    margin-left: 9%;
+    width: 1000px;
+    overflow: hidden;
+  }
+
+  #innImage {
+    font-size: 8px;
+    margin-left: 43%;
+  }
+
+  #forest {
+    font-size: 8px;
+    margin-left: 34%;
+  }
+
+  #throneRoom {
+    font-size: 8px;
+    margin-left: 12%;
+    width: 930px;
+  }
+
+  //Character Menu
+  #characterPortrait {
+    font-size: .25em;
+    margin-bottom: .5%;
+    line-height: 1.25em;
+  }
+}
