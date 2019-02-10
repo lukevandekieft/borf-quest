@@ -279,7 +279,7 @@ $(document).ready(function() {
       $("#statCheckButton").click(function() {
         var currentRoll = dice();
         $(".testButton").empty();
-        $(".printText").append("<br>")
+        $(".printText").append("<br/>")
         $('.testButton').append('<button id="statRollButton" type="button">Ok</button>')
         showTextStats($(".printText"), 'Your roll was ' + currentRoll + "." + " Your total " + statName + " is " + (currentRoll + checkedStat) + ".", 0);
         $("#statRollButton").click(function() {
