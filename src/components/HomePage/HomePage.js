@@ -11,10 +11,10 @@ class HomePage extends Component {
         <GoblinQuest />
         <Borf />
         <RiseOfBorf />
-       <button id="playNow" type="button">PLAY NOW</button>
-       <div class="copyright">
-         <p>&#169; 2018 LotharSoft Computer Games Inc.</p>
-       </div>
+        <button id="playNow" type="button">PLAY NOW</button>
+        <div class="copyright">
+          <p>&#169; 2018 LotharSoft Computer Games Inc.</p>
+        </div>
       </div>
     );
   }
