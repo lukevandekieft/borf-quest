@@ -3,9 +3,7 @@ import React from 'react';
 function Borf(){
 
   return (
-    <pre id="borfPortrait">{`
-
-                                  ░                                                                      
+    <pre id="borfPortrait">{`                        
              .
               .       |         .    .
      .  *         -*-          *
