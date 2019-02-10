@@ -31,7 +31,7 @@ class Header extends React.Component{
 }
 
 Header.propTypes = {
-  currentSection: PropTypes.any.isRequired,
+  currentSection: PropTypes.any,
 };
 
 export default Header;

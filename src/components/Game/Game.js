@@ -8,7 +8,11 @@ class Game extends Component {
     super(props);
     this.state = {
       currentSection: null,
-      currentPage: 1
+      currentPage: 2,
+      statAgility: null,
+      statCharisma: 1,
+      statIntelligence: null,
+      statStrength: 18,
     }
   }
 
@@ -19,9 +23,16 @@ class Game extends Component {
           currentSection = {this.state.currentSection}
         />
         <div className="row justify-content-xl-center">
-          <CharacterBar />
+          <CharacterBar
+            agility = {this.state.statAgility}
+            charisma = {this.state.statCharisma}
+            intelligence = {this.state.statIntelligence}
+            strength = {this.state.statStrength}
+          />
         </div>
-        <TextDisplay />
+        <TextDisplay
+          currentPage = {this.state.currentPage}
+        />
       </div>
     );
   }
