@@ -13,12 +13,11 @@ class Header extends React.Component{
     if (this.props.currentSection === 'castle') {
       headerImage = <Castle />
     } else if (this.props.currentSection === 'forest') {
-      headerImage =
-      <div>
-      <Cabin />
-      <Forest />
-      <ThroneRoom />
-      </div>
+      headerImage = <Forest />
+    } else if (this.props.currentSection === 'cabin') {
+      headerImage = <Cabin />
+    } else if (this.props.currentSection === 'throneRoom') {
+      headerImage = <ThroneRoom />
     }
     return (
       <div className="row picture">
