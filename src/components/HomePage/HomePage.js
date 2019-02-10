@@ -7,12 +7,12 @@ class HomePage extends Component {
 
   render() {
     return (
-      <div class="splash">
+      <div className="splash">
         <GoblinQuest />
         <Borf />
         <RiseOfBorf />
         <button id="playNow" type="button">PLAY NOW</button>
-        <div class="copyright">
+        <div className="copyright">
           <p>&#169; 2018 LotharSoft Computer Games Inc.</p>
         </div>
       </div>

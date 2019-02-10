@@ -9,8 +9,8 @@ class Header extends React.Component{
 
   render(){
     return (
-      <div class="row picture">
-        <div class="col-md-12 ">
+      <div className="row picture">
+        <div className="col-md-12 ">
           <Castle />
           <Cabin />
           <Placeholder />

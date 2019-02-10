@@ -5,7 +5,9 @@
   "dependencies": {
     "custom-react-scripts": "0.2.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.5",
+    "react-router-dom": "^4.3.1"
   },
   "scripts": {
     "start": "react-scripts start",
