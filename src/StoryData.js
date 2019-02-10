@@ -55,14 +55,82 @@ const Pages = {
     Well, I guess you need to push this old hag/goblin aside and continue on your journey, eh? You do so with ease and hear her mumbling something behind you. Shoot! She has cast a spell! (More cackles.) If you fail this charisma stat test your fate will be even less fortunate than usual lol.`,
     title: `Stats Test`,
   },
-  5: { buttons: {}, location: `cabin`, text: ``, title: ``, },
-  6: { buttons: {}, location: `cabin`, text: ``, title: ``, },
-  7: { buttons: {}, location: `cabin`, text: ``, title: ``, },
-  8: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  9: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  10: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  11: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  12: { buttons: {}, location: `forest`, text: ``, title: ``, },
+  5: {
+    buttons: {
+      'Pass': 8,
+      'Fail': 7,
+    },
+    location: `cabin`,
+    text: `“Fools!” the hermit yells, as he rises from his crouched position. His cloak fall away to reveal the form of a demon. “You have chosen poorly! Now you shall perish!” says the demon as he makes his way toward you.
+
+    The outlook is grim. He is a massive, dark creature. Your only option is to run. Make an agility roll to run for your life!`,
+    title: `Stats Test`,
+  },
+  6: {
+    buttons:  {
+      'Replay': null,
+    },
+    location: `cabin`,
+    text: `Fortune does not smile upon thee. It has been a long journey and you have shown yourself to be a potentially excellent hero. Really. But you have just made a fatal error. It's over. It's done. Caput. Alas, you are...
+
+      ...NOW DEAD. Rest in Peace and Thanks for Playing! T_T
+
+      Give it another go?`,
+    title: `Death`,
+  },
+  7: {
+    buttons: {
+      'Replay': null,
+    },
+    location: `cabin`,
+    text: `Your speed is no match for the quickness of the dark fiend. A dark cloud envelopes you. You hear screams. You are unsure whether the voice belongs to you or the lost souls who came before you. You find it hard to breathe. The world begins to go dark. You can feel the grip of death closing in on you. Your final thought is that maybe you will see your beloved on the other side….
+
+      Game over.`,
+    title: `Death`,
+  },
+  8: {
+    buttons: {
+      'Into the Forest': 10,
+    },
+    location: `forest`,
+    text: `You sprint across the bridge, leaving the hermit far behind. Departing the town, your sadness is replaced with determination. You are one step closer to finding out what happened to your lost love. You push forward through the evening mist until you happen upon a dark and scary forest. “Our destination is just beyond this forest,” Artemisia says as he checks the map. You shiver as you hear the unknown noises of the forest before you.`,
+    title: `Outside Forest - Artemisia`,
+  },
+  9: {
+    buttons: {
+      'Into the Forest': 11,
+    },
+    location: `forest`,
+    text: `Leaving the town behind, your sadness is replaced with determination. You are one step closer to finding out what happened to your lost love. You push forward through the evening mist until you happen upon a dark and scary forest. “I know these woods well,” Bootstrap says as he takes a swig from his flask. You shiver as you hear the unknown noises of the forest before you. “The forest is treacherous, but it is the shortest way there."`,
+    title: `Outside Forest - Bootstrap`,
+  },
+  10: {
+    buttons: {
+      'Hide': 19,
+      'Sneak Away': 12,
+    },
+    location: `forest`,
+    text: `You make your way into the dimly-lit forest and immediately regret your decision. You can see menacing eyes looking at you from all around the wood. You pray these are just woodland creatures as you push further into the brush. All of the sudden, you hear a loud snarl that stops you in your tracks. Looking around, you see a pair of goblin sentries patrolling the woods. They are hideous, armored creatures wielding axes. “Stay very still,” Artemisia whispers. “I don’t think they’ve seen us. We should avoid confrontation.” If you duck and hide, you can lay low and wait until they pass, but who knows how long that will take. You’d like to leave this sinister place as soon as possible. If you stay very quiet, you may be able to sneak past them undetected. Do you choose to hide and wait for them to pass or choose to sneak around them?`,
+    title: `Inside Forest - Artemisia`,
+  },
+  11: {
+    buttons: {
+      'Hide': 20,
+      'Sneak Away': 13,
+    },
+    location: `forest`,
+    text: `You make your way into the dimly-lit forest and immediately regret your decision. You can see menacing eyes looking at you from all around the wood. You pray these are just woodland creatures as you push further into the brush. Bootstrap unsheathes his dagger and uses it to hack and slash through the foliage. All of the sudden, you hear a loud snarl that stops you in your tracks. Looking around, you see a pair of goblin sentries patrolling the woods. They are hideous, armored creatures wielding axes. “Goblins,” whispers Bootstrap. “Strong beasts, but not very bright. I say we take them down.” You aren’t looking for a fight. Lucky for you, they haven’t noticed you yet. If you duck and hide, you can lay low and wait until they pass, but who knows how long that will take. You’d like to leave this sinister place as soon as possible. If you stay very quiet, you may be able to sneak past them undetected. Do you choose to hide and wait for them to pass or choose to sneak around them?`,
+    title: `Inside Forest - Bootstrap`,
+  },
+  12: {
+    buttons: {
+      'Fight':
+      'Run':
+    },
+    location: `forest`,
+    text: `*CRACK* You attempt to sneak away, but Artemisia steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “We are done for! Gods save us!” Artemisia cries. Do you choose to stay and fight or attmept to run away?`,
+    title: `Goblin Battle - Artemisia`,
+   },
   13: { buttons: {}, location: `forest`, text: ``, title: ``, },
   14: { buttons: {}, location: `forest`, text: ``, title: ``, },
   15: { buttons: {}, location: `forest`, text: ``, title: ``, },

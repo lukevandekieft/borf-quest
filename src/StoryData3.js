@@ -1,60 +1,12 @@
-<div id="5">
-    {/* Stats Test */}
-    <p className="hidden">“Fools!” the hermit yells, as he rises from his crouched position. His cloak fall away to reveal the form of a demon. “You have chosen poorly! Now you shall perish!” says the demon as he makes his way toward you.
-
-      The outlook is grim. He is a massive, dark creature. Your only option is to run. Make an agility roll to run for your life!</p>
-    <button type="button" className="a">Pass</button> {/* go to page 8 */}
-    <button type="button" className="b">Fail</button> {/* go to page 7 */}
-  </div>
-  <div id="6">
-    {/* Death */}
-    <p className="hidden">Fortune does not smile upon thee. It has been a long journey and you have shown yourself to be a potentially excellent hero. Really. But you have just made a fatal error. It's over. It's done. Caput. Alas, you are...
-
-      ...NOW DEAD. Rest in Peace and Thanks for Playing! T_T
-
-      Give it another go?</p>
-    <button type="button" className="replay">Play Again?</button> {/* go to splash page */}
-  </div>
-  <div id="7">
-    {/* Death */}
-    <p className="hidden">Your speed is no match for the quickness of the dark fiend. A dark cloud envelopes you. You hear screams. You are unsure whether the voice belongs to you or the lost souls who came before you. You find it hard to breathe. The world begins to go dark. You can feel the grip of death closing in on you. Your final thought is that maybe you will see your beloved on the other side….
-
-      Game over.</p>
-      <button type="button" className="replay">Play Again?</button> {/* go to splash page */}
-    </div>
-    <div id="8">
-      {/* Outside Forest - Artemisia */}
-      <p className="hidden">You sprint across the bridge, leaving the hermit far behind. Departing the town, your sadness is replaced with determination. You are one step closer to finding out what happened to your lost love. You push forward through the evening mist until you happen upon a dark and scary forest. “Our destination is just beyond this forest,” Artemisia says as he checks the map. You shiver as you hear the unknown noises of the forest before you.</p>
-      <button type="button" className="a">Into the Forest</button> {/* go to page 10*/}
-
-    </div>
-    <div id="9">
-      {/* Outside Forest - Bootstrap */}
-      <p className="hidden">Leaving the town behind, your sadness is replaced with determination. You are one step closer to finding out what happened to your lost love. You push forward through the evening mist until you happen upon a dark and scary forest. “I know these woods well,” Bootstrap says as he takes a swig from his flask. You shiver as you hear the unknown noises of the forest before you. “The forest is treacherous, but it is the shortest way there."</p>
-      <button type="button" className="a">Into the Forest</button> {/* go to page 11*/}
-
-    </div>
-    <div id="10">
-      {/* Inside Forest - Artemisia */}
-      <p className="hidden">You make your way into the dimly-lit forest and immediately regret your decision. You can see menacing eyes looking at you from all around the wood. You pray these are just woodland creatures as you push further into the brush. All of the sudden, you hear a loud snarl that stops you in your tracks. Looking around, you see a pair of goblin sentries patrolling the woods. They are hideous, armored creatures wielding axes. “Stay very still,” Artemisia whispers. “I don’t think they’ve seen us. We should avoid confrontation.” If you duck and hide, you can lay low and wait until they pass, but who knows how long that will take. You’d like to leave this sinister place as soon as possible. If you stay very quiet, you may be able to sneak past them undetected. Do you choose to hide and wait for them to pass or choose to sneak around them?</p>
-      <button type="button" className="a">Hide</button> {/* go to page 19*/}
-      <button type="button" className="b">Sneak Away</button> {/* go to page 12*/}
-    </div>
-    <div id="11">
-      {/* Inside Forest - Bootstrap */}
-      <p className="hidden">You make your way into the dimly-lit forest and immediately regret your decision. You can see menacing eyes looking at you from all around the wood. You pray these are just woodland creatures as you push further into the brush. Bootstrap unsheathes his dagger and uses it to hack and slash through the foliage. All of the sudden, you hear a loud snarl that stops you in your tracks. Looking around, you see a pair of goblin sentries patrolling the woods. They are hideous, armored creatures wielding axes. “Goblins,” whispers Bootstrap. “Strong beasts, but not very bright. I say we take them down.” You aren’t looking for a fight. Lucky for you, they haven’t noticed you yet. If you duck and hide, you can lay low and wait until they pass, but who knows how long that will take. You’d like to leave this sinister place as soon as possible. If you stay very quiet, you may be able to sneak past them undetected. Do you choose to hide and wait for them to pass or choose to sneak around them?</p>
-      <button type="button" className="a">Hide</button> {/* go to page 20*/}
-      <button type="button" className="b">Sneak Away</button> {/* go to page 13*/}
-    </div>
     <div id="12">
-      {/* Goblin Battle - Artemisia */}
-      <p className="hidden">*CRACK* You attempt to sneak away, but Artemisia steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “We are done for! Gods save us!” Artemisia cries. Do you choose to stay and fight or attmept to run away?</p>
+      {/*  */}
+      <p className="hidden"></p>
       <button type="button" className="strength option1 stat" value="30">Fight</button> {/* success = page 15, fail = page 18*/}
       <button type="button" className="agility option2 stat" value="20">Run</button> {/* success = page 14, fail = page 18 */}
     </div>
     <div id="13">
       {/* Goblin Battle - Bootstrap */}
-      <p className="hidden">*CRACK* You attempt to sneak away, but Bootstrap clumsily steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “Ay! I’ve been looking for a fight. These evil fiends will taste my blade!” Bootstrap cries. Do you choose to stay and fight or attempt to run away?</p>
+      <p className="hidden">*CRACK* You attempt to sneak away, but Bootstrap clumsily steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “Ay! I’ve been looking for a fight. These evil fiends will taste my blade!” Bootstrap cries. Do you choose to stay and fight or attempt to run away?</p>
       <button type="button" className="strength option1 stat" value="30">Fight</button> {/* success = page 17, fail = page 18*/}
       <button type="button" className="agility option2 stat" value="20">Run</button> {/* success = page 16, fail = page 18 */}
     </div>
