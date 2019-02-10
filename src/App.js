@@ -8,13 +8,6 @@ import './App.scss';
 import './stylesheets/styles.scss';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      stateTester: true
-    }
-  }
-
   render() {
     // {/* MUSIC OPTIONS */}
     // {/* <iframe src="img/ominous.mp3" allow="autoplay" style="display:none"></iframe> */}
