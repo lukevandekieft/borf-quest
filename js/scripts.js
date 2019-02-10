@@ -53,18 +53,6 @@ var statCheck = function (characterStat, statCheckNumber, characterRoll) {
 
 // FRONTEND
 
-//WORKING SOLUTION: SEPARATE LISTNER INTO FRONT END? DON'T DELETE
-// var displayListener = function(showButtonTrigger) {
-//   if (showButtonTrigger === 0) {
-//     $(".current-story").show();
-//     $(".hidden").hide();
-//     console.log("ShowbuttonTriggerAfter" + showButtonTrigger);
-//   } else {
-//     setTimeout(function () { displayListener(showButtonTrigger); }, 1000);
-//     console.log("ShowbuttonTriggerBefore" + showButtonTrigger);
-//   }
-// }
-
 //INN 1-7//
 var storyArray = [[2,3],[4,9],[8,5],[9,6],[8,7],[0,0],[0,0],
 //FOREST 8-20//
