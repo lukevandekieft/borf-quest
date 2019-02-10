@@ -48,7 +48,7 @@ const Pages = {
   4: {
     buttons: {
       'Fail': 7,
-      'Pass' 5,
+      'Pass': 5,
     },
     location: 'cabin',
     text: `You have answered the stupid riddle with the wrong choice. They seem equally viable but this old hag, er, Vurda only accepts the answer "Pearls". She cackles, as she would, and tells you that her big brother Borf will be delighted she prevented you from leaving town. At this point you realize you don't know the name of the drunkard. You have spent a few hours conversing about fate and it's cruel tricks; about life and the dreams you have. You have made a true friend that has a shared interest in defeating Borf. If you survive this encounter with Vurda (whomst'nt name no one needs to know ever, whomst've is a damned goblin related to Borf) you should maybe introduce yourself??
@@ -124,8 +124,8 @@ const Pages = {
   },
   12: {
     buttons: {
-      'Fight':
-      'Run':
+      'Fight': 8,
+      'Run': 1,
     },
     location: `forest`,
     text: `*CRACK* You attempt to sneak away, but Artemisia steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “We are done for! Gods save us!” Artemisia cries. Do you choose to stay and fight or attmept to run away?`,

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import CharacterBar from './CharacterBar';
 import TextDisplay from './TextDisplay';
+import Pages from '../../StoryData';
 
 class Game extends Component {
   constructor(props) {
@@ -18,7 +19,10 @@ class Game extends Component {
   }
 
   handleChangePage(nextPage) {
-    this.setState({currentPage: nextPage});
+    this.setState({
+      currentPage: nextPage,
+      currentSection: Pages[nextPage].location,
+    });
   }
 
   render() {

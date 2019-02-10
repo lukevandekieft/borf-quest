@@ -1,13 +1,13 @@
 // BACKEND
 
 // CHARACTER CONSTRUCTOR
-function Character (name) {
-  this.name = name;
-  this.strength = 0;
-  this.agility = 0;
-  this.intelligence = 0;
-  this.charisma = 0;
-}
+// function Character (name) {
+//   this.name = name;
+//   this.strength = 0;
+//   this.agility = 0;
+//   this.intelligence = 0;
+//   this.charisma = 0;
+// }
 
 Character.prototype.deathCheck = function () {
   if (this.strength === 0 || this.agility === 0 || this.intelligence === 0 || this.charisma === 0) {
