@@ -8,12 +8,17 @@ class Game extends Component {
     super(props);
     this.state = {
       currentSection: null,
-      currentPage: 2,
+      currentPage: 1,
       statAgility: null,
       statCharisma: 1,
       statIntelligence: null,
       statStrength: 18,
     }
+    this.handleChangePage = this.handleChangePage.bind(this);
+  }
+
+  handleChangePage(nextPage) {
+    this.setState({currentPage: nextPage});
   }
 
   render() {
@@ -32,6 +37,7 @@ class Game extends Component {
         </div>
         <TextDisplay
           currentPage = {this.state.currentPage}
+          onChangePage = {this.handleChangePage}
         />
       </div>
     );

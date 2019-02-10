@@ -11,7 +11,7 @@ class TextDisplay extends Component {
         <p>{text}</p>
         {Object.keys(page.buttons).map(index => {
         let button = page.buttons[index];
-          return <button>{index}</button>
+          return <button key={index} onClick={()=>{this.props.onChangePage(button)}}>{index}</button>
       })}
       </div>
     );
@@ -20,6 +20,7 @@ class TextDisplay extends Component {
 
 TextDisplay.propTypes = {
   currentPage: PropTypes.number.isRequired,
+  onChangePage: PropTypes.func
 };
 
 export default TextDisplay;
