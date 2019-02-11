@@ -125,16 +125,16 @@ const Pages = {
   12: {
     buttons: {
       'Fight': {
-        'Attribute': 'Strength',
-        'Value': 30,
-        'Pass': 15,
-        'Fail': 18,
+        attribute: 'strength',
+        value: 30,
+        pass: 15,
+        fail: 18,
       },
       'Run': {
-        'Attribute': 'Agility',
-        'Value': 20,
-        'Pass': 14,
-        'Fail': 18,
+        attribute: 'agility',
+        value: 20,
+        pass: 14,
+        fail: 18,
       }
     },
     location: `forest`,

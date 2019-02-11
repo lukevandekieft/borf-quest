@@ -4,13 +4,15 @@ import Pages from '../../StoryData';
 
 class TextDisplay extends Component {
   render() {
+    const {currentChallenge} = this.props;
     const page = Pages[this.props.currentPage];
     const text = page.text;
     let content;
-    if (this.props.currentChallenge && !this.props.challengeResult) {
+    if (currentChallenge && !this.props.challengeResult) {
       content =
       <React.Fragment>
-        <p>You need good results to Pass</p>
+        <p>You need {currentChallenge.attribute} of {currentChallenge.value} to pass. Your current {currentChallenge.attribute} is {this.props[currentChallenge.attribute]}.</p>
+        <button onClick={()=>{this.props.onChoiceClick(this.props.currentChallenge)}}>Roll!</button>
       </React.Fragment>
     } else if (this.props.currentChallenge && this.props.challengeResult) {
       content =

@@ -9,23 +9,16 @@ class Game extends Component {
     super(props);
     this.state = {
       currentSection: 'cabin',
-      currentPage: 1,
+      currentPage: 12,
       currentChallenge: null,
       challengeResult: null,
-      statAgility: 3,
-      statCharisma: 1,
-      statIntelligence: 6,
-      statStrength: 18,
+      agility: 3,
+      charisma: 1,
+      intelligence: 6,
+      strength: 18,
     }
-    this.handleChangePage = this.handleChangePage.bind(this);
     this.handleChoiceClick = this.handleChoiceClick.bind(this);
-  }
-
-  handleChangePage(nextPage) {
-    this.setState({
-      currentPage: nextPage,
-      currentSection: Pages[nextPage].location,
-    });
+    this.handleChangePage = this.handleChangePage.bind(this);
   }
 
   handleChoiceClick(button) {
@@ -35,6 +28,17 @@ class Game extends Component {
       this.setState({currentChallenge: button});
       console.log(this.state.currentChallenge);
     }
+  }
+
+  handleChangePage(nextPage) {
+    this.setState({
+      currentPage: nextPage,
+      currentSection: Pages[nextPage].location,
+    });
+  }
+
+  handleDiceRoll(testedStat) {
+    const statName = `stat${testedStat}`;
   }
 
   render() {
@@ -58,6 +62,10 @@ class Game extends Component {
           currentChallenge = {this.state.currentChallenge}
           challengeResult = {this.state.challengeResult}
           onChoiceClick = {this.handleChoiceClick}
+          agility = {this.state.agility}
+          charisma = {this.state.charisma}
+          intelligence = {this.state.intelligence}
+          strength = {this.state.strength}
         />
       </div>
     );
