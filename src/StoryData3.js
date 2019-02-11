@@ -1,70 +1,6 @@
-    <div id="12">
-      {/*  */}
-      <p className="hidden"></p>
-      <button type="button" className="strength option1 stat" value="30">Fight</button> {/* success = page 15, fail = page 18*/}
-      <button type="button" className="agility option2 stat" value="20">Run</button> {/* success = page 14, fail = page 18 */}
-    </div>
-    <div id="13">
-      {/*  */}
-      <p className="hidden"></p>
-      <button type="button" className="strength option1 stat" value="30">Fight</button> {/* success = page 17, fail = page 18*/}
-      <button type="button" className="agility option2 stat" value="20">Run</button> {/* success = page 16, fail = page 18 */}
-    </div>
-    <div id="16">
-      {/* Battle Success - Run- Bootstrap*/}
-      <p className="hidden">The goblins are strong and their size formidable. Without a weapon of your own, you fear certain death. You climb a nearby tree to escape their slimy grip. You breathe a sigh of relief as you find yourself well out of their reach. Thank goodness goblins cannot climb. The tree begins to shake and you hold on for dear life. Looking down, you see the goblins are hacking away at the tree with their axes. You begin to say your final prayers as the goblin’s axe makes a slicing blow to the tree. The tree falls to the forest floor with a deafening thud. You land in a bush, badly scratched and short of breath. In a glorious turn of fate, you rise to see that the tree has fallen and crushed your goblin adversaries. You thank the gods that the goblins were not nearly as smart as they were strong. You quickly move on through the forest.</p>
-      <button type="button" className="a">Continue</button> {/* go to page 21 */}
-    </div>
-    <div id="17">
-      {/* Battle Success - Fight - Bootstrap*/}
-      <p className="hidden">You win the battle. You claim the spoils of victory as you strip them of their armor and weapons. After all, they won’t be needing it anymore. You quickly move on through the forest.</p>
-      <button type="button" className="a">Continue</button> {/* go to drawbridge 21*/}
-    </div>
-    <div id="19">
-      {/* Hide Artemesia--*/}
-      <p className="hidden">You remain as quiet as possible as you duck in the underbrush. Unfortunately, you chose a hiding place that was also home to a nest of poisonous spiders. You stay still and bite your tongue while enduring the searing pain of the spider bites. After what seems like hours, the goblin sentries are finally out of sight. You have evaded danger for now, but the poison has taken a toll on your health. You wince through the pain as you continue through the forest.</p>
-      <button type="button" className="a">Continue</button> {/* go to page 41 */}
-    </div>
-    <div id="20">
-      {/* Hide Bootstrap*/}
-      <p className="hidden">You remain as quiet as possible as you duck in the underbrush. Unfortunately, you chose a hiding place that was also home to a nest of poisonous spiders. You stay still and bite your tongue while enduring the searing pain of the spider bites. After what seems like hours, the goblin sentries are finally out of sight. You have evaded danger for now, but the poison has taken a toll on your health. You wince through the pain as you continue through the forest.</p>
-      <button type="button" className="a">Continue</button> {/* go to page 30 */}
-    </div>
-    <div id="21">
-      <p className="hidden">You and Bootstrap emerge from the dense forest and the strange purple fog clears. You take a breath of air--naturally expecting the usual fresh, unpolluted breeze of this pre-industrial age--but a indescribable stench has taken it’s place. You follow the stench’s direction and a castle appears on the horizon, erupting from the landscape like a pimple. It's the magnificent and terrible castle of the Goblin King Borf. You and Bootstrap approach. The stench holds you back like a wall, but you plug your nose and push on. Bootstrap doesn’t seem bothered by it at all. A moat flows around the castle, but instead of water a brown sewage burbles slowly. Bootstrap pushes a branch out of the way to reveal a path to a large brown, stone chute emptying into the moat from underneath the castle where the sun dost ne'er shineth.
-        “It’s our only way in,” Bootstrap tells you, as if he’s been here before. You’ve heard tales of the diseased phantoms of goblin excrement, as putrid and potent as poison. Bootstrap dips his flask in it, and you don’t even want to imagine why. 
 
-        You think you may see another way. If you monkey climb across the beam under the drawbridge and swing up onto that stone there that seems to be poking out a bit, a small window on the other side could just barely fit your broad shoulders. 
-        Which path will you choose?</p>
-      <button type="button" className="stat agility option1" Value="41">Bridge</button> {/* go to page 23 */}
-      <button type="button" className="b">Sewer</button> {/* go to page 22*/}
-    </div>
-    <div id="22">
-      <p className="hidden">You realize you were kidding yourself that you could pull off such a stunt. And surely Bootstrap would not have followed.   
-
-        The sewer is not the worst place you’ve ever been. After all, at least it's not promising to be anything it's not. 
-
-        You slip and fall and slide a good twenty feet before scrambling back to your feet. You've been soiled. Oh well. After the loss of your love you now look on the outside like you feel on the inside. 
-
-        You journey deep into the sewer and find a set of holes several feet above you letting in light, just big enough to squeeze through.</p>
-      <button type="button" className="a">Climb up</button> {/* go to page 24 */}
-      <button type="button" className="b">Wait under hole</button> {/* go to page 25 */}
-    </div>
-    <div id="23">
-      <p className="hidden">You immediately fall into the moat of sewage. How did you ever think you could have pulled that off? Bootstrap laughs at you, but he's not spic and span either. You wallow over to him as best you can, and climb up to the sewer. You’re covered from head to toe, but after the loss of your love you now look on the outside like you feel on the inside. 
-
-        You journey deep into the sewer and find a set of holes several feet above you letting in light, just big enough to squeeze through.</p>
-      <button type="button" className="a">Climb up</button> {/* go to page 24*/}
-      <button type="button" className="b">Wait under hole</button> {/* go to page 25*/}
-    </div>
     <div id="24">
-      <p className="hidden">You emerge to find a giant goblin with his pants down, getting ready to sit on your head. The goblin turns around with enraged frustration, and grabs you by the neck. You and Bootstrap are carried off and thrown into a dungeon cell. 
-
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell. 
-
-        'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-        “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
+      <p className="hidden"></p>
       <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page 34*/}
       <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page 34*/}
       <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page 34*/}

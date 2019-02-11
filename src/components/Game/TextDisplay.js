@@ -7,6 +7,8 @@ class TextDisplay extends Component {
     const {challengeResult, currentChallenge, currentPage, onChoiceClick, onDiceRoll, agility, charisma, intelligence, strength} = this.props;
     const page = Pages[currentPage];
     const text = page.text;
+
+    //DISPLAY OPTIONS: STAT TEST, TEST PASS, TEST FAIL, AND GENERAL PAGE
     let content;
     if (currentChallenge && !challengeResult) {
       content =
@@ -20,11 +22,13 @@ class TextDisplay extends Component {
         content =
         <React.Fragment>
           <p>You rolled a {baseRoll} for a total {currentChallenge.attribute} of {challengeResult}. You passed your {currentChallenge.attribute} check!</p>
+          <button onClick={()=>{onChoiceClick(currentChallenge.pass)}}>Continue</button>
         </React.Fragment>
       } else {
         content =
         <React.Fragment>
           <p>You rolled a {baseRoll} for a total {currentChallenge.attribute} of {challengeResult}. You have failed your roll and lost some {currentChallenge.attribute}.</p>
+          <button onClick={()=>{onChoiceClick(currentChallenge.fail)}}>Continue</button>
         </React.Fragment>
       }
     } else {
@@ -37,6 +41,7 @@ class TextDisplay extends Component {
         })}
       </React.Fragment>
     }
+
     return (
       <div className="hidden-story">
         {content}
