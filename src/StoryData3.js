@@ -6,10 +6,6 @@
       <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page 34*/}
       <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page 34*/}
     </div>
-    <div id="25">
-      <p className="hidden">One of the holes above you darkens, and a rude noise is followed by a rush of waste which fills your eye sockets. You wipe your eyes and see the hole covered above you. What do you do?</p>
-      <button type="button" className="a">Stick sword in hole</button> {/* go to page 27*/}
-      <button type="button" className="b">Wait under hole</button> {/* go to page 28*/}
     </div>
     <div id="26">
       <p className="hidden">A pair of goblin guards see you, drop their tankards of brown ale and they splatter and splash across the cobblestone hall, and they run after you at a surprising speed. They grab you by the hair and throw you in a cell. 
@@ -36,11 +32,6 @@
       <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page 34*/}
       <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page 34*/}
       <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page 34*/}
-    </div>
-    <div id="28">
-      <p className="hidden">The goblin leaves, and the holes are once again clear. You climb up into the goblin latrine and peer out the door. You are free in Borf's halls. The hallway leads off in two directions.</p>
-      <button type="button" className="a">Left</button> {/* go to page 39*/}
-      <button type="button" className="b">Right</button> {/* go to page 40*/}
     </div>
     <div id="29">
       <p className="hidden">You and Bootstrap emerge from the forest in full Goblin Armor and smeared with waste and dried blood, but even with the accoutrement you make a scrawny excuse for goblins. 
@@ -165,20 +156,7 @@
       <button type="button" className="a">Left</button> {/* go to page 40*/}
       <button type="button" className="b">Right</button> {/* go to page 39*/}
     </div>
-    <div id="39">
-      <p className="hidden">You find the goblin armory. In the center of the room, elevated above all other gear, is a golden sword and shield, and a glistening suit of golden armor. “Hey, it’s just your size,” Bootstrap says, and helps it on. His hands are damp with sweat for no reason. 
-        You and Bootstrap rush off down the hallway, and you approach the giant door which will surely lead to the Goblin King Borf’s throne room.</p>
-      <button type="button" className="a">Enter Borf's Throne Room</button> {/* go to page 40 */}
-    </div>
 
-    <div id="40">
-      <p className="hidden">You emerge from the dense forest and the strange purple fog clears. You take a breath of air--naturally expecting the usual fresh, unpolluted breeze of this pre-industrial age--but a indescribable stench has taken it’s place. You follow the stench’s direction and a castle appears on the horizon, erupting from the landscape like a pimple. It's the magnificent and terrible castle of the Goblin King Borf. You and Artemesia approach.  The stench holds you back like a wall, but you plug your nose and push on. Artemesia ties a perfumed kerchief round his nose parts. A moat flows around the castle, but instead of water a brown sewage burbles slowly. Artemesia pushes a branch out of the way to reveal a path to a large brown, stone chute emptying into the moat from underneath the castle where the sun dost ne'er shineth.  
-        “It’s our only way in,” Artemesia tells you, as if he’s been here before. You’ve heard tales of the diseased phantoms of goblin excrement, as putrid and potent as poison. Artemesia saves a phial of the noxious sludge, perhaps to add to a potion in his alchemical laboratory.  
-        You think you may see another way. If you monkey climb across the beam under the drawbridge and swing up onto that stone that seems to be poking out a bit, a small window on the other side could just barely fit your broad shoulders.  
-        Which path will you choose?</p>
-      <button type="button" className="stat agility option1" Value="41">Bridge</button> {/* go to page */}
-      <button type="button" className="b">Sewer</button> {/* go to page */}
-    </div>
     <div id="41">
       <p className="hidden">You realize you were kidding yourself that you could pull off such a stunt. And surely Artemesia would not have followed.   
 
@@ -362,66 +340,6 @@
       <p className="hidden">You find the goblin armory. In the center of the room, elevated above all other gear, is a golden sword and shield, and a glistening suit of golden armor. “It’s approximately your size,” Artemesia says, and helps it on.  
       You and Artemesia rush off down the hallway, and you approach the giant door which will surely lead to the Goblin King Borf’s throne room.</p>
       <button type="button" className="a">Enter Borf's Throne Room</button> {/* go to page */}
-    </div>
-    <div id="59">
-      <p className="hidden">From here the disgusting rumbling of The Goblin King Borf's belly can be heard. Bootstrap seems like he could use something to eat as well. You progress through the castle corridors towards Borf's lair. It seems eerily quiet. The throne room door is ajar... should you enter the throne room or just go back to the pub?</p>
-      <button type="button" className="a">Enter</button> {/* go to page-62 */}
-      <button type="button" className="b">Go Back</button> {/* go to page-60 */}
-    </div>
-    <div id="60">
-      <p className="hidden">You are paralyzed with fear and decide to go back to the pub and just hope for the best. Unless you overcome your fear now and face Borf this is the end of your quest and your designation as a hero.
-        Do you go back to the pub or continue the quest?</p>
-      <button type="button" className="a">Pub</button> {/* go to 61*/}
-      <button type="button" className="b">Continue</button> {/* go to page 62 */}
-    </div>
-    <div id="61">
-      <p className="hidden">You have decided to waste all of this time and just give up. Congrats or something?</p>
-      <button type="button" className="replay">Replay</button> {/* go to splash page */}
-    </div>
-    <div id="62">
-      <p className="hidden">You quietly approach the door to Borf's lair. It smells like burnt toast and soured ranch dressing. As you push the door open the hinge creaks, announcing your arrival. Borf sits upon his throne, glaring at you and Bootstrap. You feel like you've been waiting your whole life for this one moment. With the lights low and the curtains open you fear you may be on the verge of just blowing it.
-      You look around the room and notice your dead lover Jaime on a ritual table. Enraged, you find the strength to push forward. Borf declares he will resurrect Jaime and unleash unknown horrors upon the earth. There is literally a bucket of ranch dressing and a pile of toast nearby on the floor. Should you feed Bootstrap a snack now?</p>
-      <button type="button" className="a">Yeah</button> {/* go to page 63 */}
-      <button type="button" className="b">No!</button> {/* go to page 64 */}
-    </div>
-    <div id="63">
-      <p className="hidden">While Bootstrap holds Borf's gaze you snatch up a piece of toast and dip it deeply into the ranch dressing. You hand the snack to your companion. Not because you are about to fight Borf but because Bootstrap Buckles is a drunkard he consumes the thing in one bite, smearing ranch dressing from his lips with his forearm. He is ready now.
-      </p> {/*Bootstrap gains toast/ranch stat boost*/}
-      <button type="button" className="a">Continue</button> {/* go to page 65 */}
-    </div>
-    <div id="64">
-      <p className="hidden">You are in too much of a pickle to help Bootstrap snack right now. He can fight with an empty belly.</p>
-      <button type="button" className="a">Continue</button> {/* go to page 65 */}
-
-    </div>
-    <div id="65">
-      <p className="hidden">Borf gets up from the throne and points his staff your direction. His eyes turn red with fury. He yells "Now you die!!!" You and Bootstrap sense there is danger incoming and step aside just as a fireball soars past. Bootstrap seems braced to attack, awaiting your next move. Do you launch the bucket of ranch dressing at Borf or lead the charge and attack?</p>
-      <button type="button" className="a">Ranch</button> {/* go to page 66 */}
-      <button type="button" className="b">Attack</button> {/* go to page 67 */}
-    </div>
-    <div id="66">
-      <p className="hidden">In one swift movement you swipe up the ranch dressing and hurl it at Borf's head. The Goblin King is amused with your decision and hits it back your way with his staff. You have been covered with cool ranch dressing. Bootstrap attacks the sidetracked Borf and lands a direct hit.</p> {/*stat check to determine if Borf is dead*/}
-      <button type="button" className="stat strength option1" value="20">Continue</button> {/* go to page 68 */}
-    </div>
-    <div id="67">
-      <p className="hidden">You do not have time for a food fight. This is serious business here. You lead the attack with the loyal Bootstrap by your side. </p>{/*stat check to determine if Borf is dead from Bootstrap and heros stats*/}
-      <button type="button" className="stat strength option1" value="20">Continue</button> {/* go to page-68 */}
-    </div>
-    <div id="68">
-      <p className="hidden">Borf withstands the attack though his flaming eyes of fury have been cooled. His staff cannot be used magically yet but he can and does hit you in the face with it. </p>{/*Strength and Intelligence roll to withstand it(reduce Strength and Intelligence stat if fail)*/}
-      <button type="button" className="stat strength option1" value="20">Continue</button> {/* go to page-69 */}
-    </div>
-    <div id="69">
-      <p className="hidden">You survive the attack and have no choice now but to attack Borf again. With no small amount of emotion you scream "Let's buckle this thing, Bootstrap!!!"</p> {/*stat check to determine if Borf is dead from Bootstrap and heros stats
-        -repeat 68-69 until resolution*/}
-      <button type="button" className="stat strength option1" value="20">Kill Borf!</button> {/* go to page 70, fail 68 */}
-    </div>
-    <div id="70">
-      <p className="hidden">You have defeated the terrible Goblin King Borf. His gross behavior can no longer unleash terror upon the earth. His foul plan to resurrect Jaime and open the doors to the underworld will die with him. He manages to utter one last menacing threat: "You haven't seen the last of me..." and then hands you a glamor shot of his likeness and expires.
-        Bootstrap Buckles gathers enough treasure to live comfortably for a while. His dream of owning a horse and finding a partner seem within close reach. In another life, another time, he could be a cowboy.
-        Tear in eye you take one last look at Jaime Jquiria. They would have made a lovely undead Goblin Royalty. They made a wonderful normal-alive-human-true-love partner. Alas, that ship has sailed.
-        You gather a small fortune in treasure and light the castle on fire as you leave. Tossing Borf's glamor shot in the fire you laugh out loud. The hero's journey has many branches and you have walked the path to victory. Fortune smiles upon thee. {`<3`}</p>
-      <button type="button" className="replay">Play Again!</button> {/* go to page splash page */}
     </div>
     <div id="72">
       <p className="hidden">From here the disgusting rumbling of The Goblin King Borf's belly can be heard. Artemisia seems like he knows the way. You wonder how he knows so much. He really has studied some very esoteric knowledge. You progress through the castle corridors towards Borf's lair. It seems eerily quiet. The throne room door is ajar... should you enter the throne room or just leave?</p>

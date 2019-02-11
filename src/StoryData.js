@@ -287,10 +287,11 @@ const Pages = {
   },
   25: {
   buttons: {
-
+    'Stick Sword in Hole': 27,
+    'Continue Waiting': 28,
   },
   location: `castle`,
-  text: ``,
+  text: `One of the holes above you darkens, and a rude noise is followed by a rush of waste which fills your eye sockets. You wipe your eyes and see the hole covered above you. What do you do?`,
   title: ``,
   },
   26: {
@@ -311,10 +312,11 @@ const Pages = {
   },
   28: {
   buttons: {
-
+    'Go Left': 39,
+    'Go Right': 59
   },
   location: `castle`,
-  text: ``,
+  text: `The goblin leaves, and the holes are once again clear. You climb up into the goblin latrine and peer out the door. You are free in Borf's halls. The hallway leads off in two directions.`,
   title: ``,
   },
   29: {
@@ -399,18 +401,23 @@ const Pages = {
   },
   39: {
   buttons: {
-
+    "Enter Borf's Throne Room": 59
   },
   location: `castle`,
-  text: ``,
+  text: `You find the goblin armory. In the center of the room, elevated above all other gear, is a golden sword and shield, and a glistening suit of golden armor. “Hey, it’s just your size,” Bootstrap says, and helps it on. His hands are damp with sweat for no reason.
+  You and Bootstrap rush off down the hallway, and you approach the giant door which will surely lead to the Goblin King Borf’s throne room.`,
   title: ``,
   },
   40: {
   buttons: {
-
+    'Bridge': 41,
+    'Sewer': 42,
   },
   location: `castle`,
-  text: ``,
+  text: `You emerge from the dense forest and the strange purple fog clears. You take a breath of air--naturally expecting the usual fresh, unpolluted breeze of this pre-industrial age--but a indescribable stench has taken it’s place. You follow the stench’s direction and a castle appears on the horizon, erupting from the landscape like a pimple. It's the magnificent and terrible castle of the Goblin King Borf. You and Artemesia approach.  The stench holds you back like a wall, but you plug your nose and push on. Artemesia ties a perfumed kerchief round his nose parts. A moat flows around the castle, but instead of water a brown sewage burbles slowly. Artemesia pushes a branch out of the way to reveal a path to a large brown, stone chute emptying into the moat from underneath the castle where the sun dost ne'er shineth.
+  “It’s our only way in,” Artemesia tells you, as if he’s been here before. You’ve heard tales of the diseased phantoms of goblin excrement, as putrid and potent as poison. Artemesia saves a phial of the noxious sludge, perhaps to add to a potion in his alchemical laboratory.
+  You think you may see another way. If you monkey climb across the beam under the drawbridge and swing up onto that stone that seems to be poking out a bit, a small window on the other side could just barely fit your broad shoulders. 
+  Which path will you choose?`,
   title: ``,
   },
   41: {
@@ -559,98 +566,117 @@ const Pages = {
   },
   59: {
   buttons: {
-
+    'Enter': 62,
+    'Go Back': 60,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `From here the disgusting rumbling of The Goblin King Borf's belly can be heard. Bootstrap seems like he could use something to eat as well. You progress through the castle corridors towards Borf's lair. It seems eerily quiet. The throne room door is ajar... should you enter the throne room or just go back to the pub?`,
   title: ``,
   },
   60: {
   buttons: {
-
+    'Pub Please': 61,
+    'Go Onward': 62,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `You are paralyzed with fear and decide to go back to the pub and just hope for the best. Unless you overcome your fear now and face Borf this is the end of your quest and your designation as a hero.
+    Do you go back to the pub or continue the quest?`,
   title: ``,
   },
   61: {
   buttons: {
-
+    'Game Over...?': null,
   },
   location: `throneRoom`,
-  text: ``,
-  title: ``,
+  text: `You have decided to waste all of this time and just give up. Congrats or something?`,
+  title: `Death`,
   },
   62: {
   buttons: {
-
+    'Yeah Sure': 63,
+    'No!': 64,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `You quietly approach the door to Borf's lair. It smells like burnt toast and soured ranch dressing. As you push the door open the hinge creaks, announcing your arrival. Borf sits upon his throne, glaring at you and Bootstrap. You feel like you've been waiting your whole life for this one moment. With the lights low and the curtains open you fear you may be on the verge of just blowing it.
+  You look around the room and notice your dead lover Jaime on a ritual table. Enraged, you find the strength to push forward. Borf declares he will resurrect Jaime and unleash unknown horrors upon the earth. There is literally a bucket of ranch dressing and a pile of toast nearby on the floor. Should you feed Bootstrap a snack now?`,
   title: ``,
   },
   63: {
   buttons: {
-
+    'Continue': 65,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `While Bootstrap holds Borf's gaze you snatch up a piece of toast and dip it deeply into the ranch dressing. You hand the snack to your companion. Not because you are about to fight Borf but because Bootstrap Buckles is a drunkard he consumes the thing in one bite, smearing ranch dressing from his lips with his forearm. He is ready now.`,
   title: ``,
   },
   64: {
   buttons: {
-
+    'He Better!': 65,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `You are in too much of a pickle to help Bootstrap snack right now. He can fight with an empty belly.`,
   title: ``,
   },
   65: {
   buttons: {
-
+    'Ranch': 66,
+    'Attack': 67,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `Borf gets up from the throne and points his staff your direction. His eyes turn red with fury. He yells "Now you die!!!" You and Bootstrap sense there is danger incoming and step aside just as a fireball soars past. Bootstrap seems braced to attack, awaiting your next move. Do you launch the bucket of ranch dressing at Borf or lead the charge and attack?`,
   title: ``,
   },
   66: {
   buttons: {
-
+    'Next': 68,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `In one swift movement you swipe up the ranch dressing and hurl it at Borf's head. The Goblin King is amused with your decision and hits it back your way with his staff. You have been covered with cool ranch dressing. Bootstrap attacks the sidetracked Borf and lands a direct hit.`,
   title: ``,
   },
   67: {
   buttons: {
-
+    'Onward!': 68,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `You do not have time for a food fight. This is serious business here. You lead the attack with the loyal Bootstrap by your side.`,
   title: ``,
   },
   68: {
   buttons: {
-
+    'Ouch!!': {
+      attribute: 'strength',
+      value: 20,
+      pass: 69,
+      fail: 69,
+    },
   },
   location: `throneRoom`,
-  text: ``,
+  text: `Borf withstands the attack though his flaming eyes of fury have been cooled. His staff cannot be used magically yet but he can and does hit you in the face with it.`,
   title: ``,
   },
   69: {
   buttons: {
-
+    'Kill Borf!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 70,
+      fail: 68,
+    },
   },
   location: `throneRoom`,
-  text: ``,
+  text: `You survive the attack and have no choice now but to attack Borf again. With no small amount of emotion you scream "Let's buckle this thing, Bootstrap!!!"`,
   title: ``,
   },
   70: {
   buttons: {
-
+    'Play Again!': null,
   },
   location: `throneRoom`,
-  text: ``,
+  text: `You have defeated the terrible Goblin King Borf. His gross behavior can no longer unleash terror upon the earth. His foul plan to resurrect Jaime and open the doors to the underworld will die with him. He manages to utter one last menacing threat: "You haven't seen the last of me..." and then hands you a glamor shot of his likeness and expires.
+  Bootstrap Buckles gathers enough treasure to live comfortably for a while. His dream of owning a horse and finding a partner seem within close reach. In another life, another time, he could be a cowboy.
+  Tear in eye you take one last look at Jaime Jquerya. They would have made a lovely undead Goblin Royalty. They made a wonderful normal-alive-human-true-love partner. Alas, that ship has sailed.
+  You gather a small fortune in treasure and light the castle on fire as you leave. Tossing Borf's glamor shot in the fire you laugh out loud. The hero's journey has many branches and you have walked the path to victory. Fortune smiles upon thee.`,
   title: ``,
   },
   71: {
