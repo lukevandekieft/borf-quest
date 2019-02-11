@@ -15,10 +15,18 @@ class TextDisplay extends Component {
         <button onClick={()=>{onDiceRoll(currentChallenge)}}>Roll!</button>
       </React.Fragment>
     } else if (currentChallenge && challengeResult) {
-      content =
-      <React.Fragment>
-        <p>Your results were {challengeResult}</p>
-      </React.Fragment>
+      let baseRoll = challengeResult - this.props[currentChallenge.attribute];
+      if (challengeResult >= currentChallenge.value) {
+        content =
+        <React.Fragment>
+          <p>You rolled a {baseRoll} for a total {currentChallenge.attribute} of {challengeResult}. You passed your {currentChallenge.attribute} check!</p>
+        </React.Fragment>
+      } else {
+        content =
+        <React.Fragment>
+          <p>You rolled a {baseRoll} for a total {currentChallenge.attribute} of {challengeResult}. You have failed your roll and lost some {currentChallenge.attribute}.</p>
+        </React.Fragment>
+      }
     } else {
       content =
       <React.Fragment>
