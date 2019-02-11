@@ -5,20 +5,10 @@
       <button type="button" className="agility option2 stat" value="20">Run</button> {/* success = page 14, fail = page 18 */}
     </div>
     <div id="13">
-      {/* Goblin Battle - Bootstrap */}
-      <p className="hidden">*CRACK* You attempt to sneak away, but Bootstrap clumsily steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “Ay! I’ve been looking for a fight. These evil fiends will taste my blade!” Bootstrap cries. Do you choose to stay and fight or attempt to run away?</p>
+      {/*  */}
+      <p className="hidden"></p>
       <button type="button" className="strength option1 stat" value="30">Fight</button> {/* success = page 17, fail = page 18*/}
       <button type="button" className="agility option2 stat" value="20">Run</button> {/* success = page 16, fail = page 18 */}
-    </div>
-    <div id="14">
-      {/* Battle Success - Run- Artemisia*/}
-      <p className="hidden">The goblins are strong and their size formidable. Without a weapon of your own, you fear certain death. You climb a nearby tree to escape their slimy grip. You breathe a sigh of relief as you find yourself well out of their reach. Thank goodness goblins cannot climb. The tree begins to shake and you hold on for dear life. Looking down, you see the goblins are hacking away at the tree with their axes. You begin to say your final prayers as the goblin’s axe makes a slicing blow to the tree. The tree falls to the forest floor with a deafening thud. You land in a bush, badly scratched and short of breath. In a glorious turn of fate, you rise to see that the tree has fallen and crushed your goblin adversaries. You thank the gods that the goblins were not nearly as smart as they were strong. You quickly move on through the forest.</p>
-      <button type="button" className="a">Continue</button> {/* go to page 49  */}
-    </div>
-    <div id="15">
-      {/* Battle Success - Fight - Artemisia*/}
-      <p className="hidden">You win the battle. You claim the spoils of victory as you strip them of their armor and weapons. After all, they won’t be needing it anymore. You quickly move on through the forest.</p>
-      <button type="button" className="a">Continue</button> {/* go to page 49*/}
     </div>
     <div id="16">
       {/* Battle Success - Run- Bootstrap*/}
@@ -29,11 +19,6 @@
       {/* Battle Success - Fight - Bootstrap*/}
       <p className="hidden">You win the battle. You claim the spoils of victory as you strip them of their armor and weapons. After all, they won’t be needing it anymore. You quickly move on through the forest.</p>
       <button type="button" className="a">Continue</button> {/* go to drawbridge 21*/}
-    </div>
-    <div id="18">
-      {/* Battle Fail */}
-      <p className="hidden">The goblins are strong and their size formidable. There seems to be no escape, so you must turn and face them. Without a weapon of your own, you fear certain death. You frantically search around you for something to use in battle. You grab a large rock and attempt to hurl it at your foe. The stone glances off the heavily armored creature. Your feeble attack has only angered the goblins more. They lunge at your with their battle axes. The blade makes contact and slices into your shoulder. You cry out as the searing pain overtakes your body. You collapse to the ground as the goblins tower over you. You pray for a swift death as the goblins claws begin to rip into you. Your final thought is of your beloved. Did they suffer the same fate at the hands of the goblins? As the world goes black, you are comforted at the possibility of being with your beloved in the afterlife. Game over!</p>
-      <button type="button" className="replay">Play Again</button> {/* go to splash page */}
     </div>
     <div id="19">
       {/* Hide Artemesia--*/}

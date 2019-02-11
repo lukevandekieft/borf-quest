@@ -124,19 +124,55 @@ const Pages = {
   },
   12: {
     buttons: {
-      'Fight': 8,
-      'Run': 1,
+      'Fight': {
+        'Attribute': 'Strength',
+        'Value': 30,
+        'Pass': 15,
+        'Fail': 18,
+      },
+      'Run': {
+        'Attribute': 'Agility',
+        'Value': 20,
+        'Pass': 14,
+        'Fail': 18,
+      }
     },
     location: `forest`,
     text: `*CRACK* You attempt to sneak away, but Artemisia steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “We are done for! Gods save us!” Artemisia cries. Do you choose to stay and fight or attmept to run away?`,
     title: `Goblin Battle - Artemisia`,
    },
-  13: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  14: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  15: { buttons: {}, location: `forest`, text: ``, title: ``, },
+  13: {
+    buttons: {},
+    location: `forest`,
+    text: `*CRACK* You attempt to sneak away, but Bootstrap clumsily steps on a branch. The sound of the twig snapping echoes through the forest. The goblins roar as they swing around to discover you there. They raise their weapons and begin advancing toward you. “Ay! I’ve been looking for a fight. These evil fiends will taste my blade!” Bootstrap cries. Do you choose to stay and fight or attempt to run away?`,
+    title: `Goblin Battle - Bootstrap`,
+  },
+  14: {
+    buttons: {
+      'Continue': 49,
+    },
+    location: `forest`,
+    text: `The goblins are strong and their size formidable. Without a weapon of your own, you fear certain death. You climb a nearby tree to escape their slimy grip. You breathe a sigh of relief as you find yourself well out of their reach. Thank goodness goblins cannot climb. The tree begins to shake and you hold on for dear life. Looking down, you see the goblins are hacking away at the tree with their axes. You begin to say your final prayers as the goblin’s axe makes a slicing blow to the tree. The tree falls to the forest floor with a deafening thud. You land in a bush, badly scratched and short of breath. In a glorious turn of fate, you rise to see that the tree has fallen and crushed your goblin adversaries. You thank the gods that the goblins were not nearly as smart as they were strong. You quickly move on through the forest.`,
+    title: `Battle Success - Run - Artemisia`,
+  },
+  15: {
+    buttons: {
+      'Continue': 49,
+    },
+    location: `forest`,
+    text: `You win the battle. You claim the spoils of victory as you strip them of their armor and weapons. After all, they won’t be needing it anymore. You quickly move on through the forest.`,
+    title: `Battle Success - Fight - Artemisia`,
+  },
   16: { buttons: {}, location: `forest`, text: ``, title: ``, },
   17: { buttons: {}, location: `forest`, text: ``, title: ``, },
-  18: { buttons: {}, location: `forest`, text: ``, title: ``, },
+  18: {
+    buttons: {
+      'Play Again': null,
+    },
+    location: `forest`,
+    text: `The goblins are strong and their size formidable. There seems to be no escape, so you must turn and face them. Without a weapon of your own, you fear certain death. You frantically search around you for something to use in battle. You grab a large rock and attempt to hurl it at your foe. The stone glances off the heavily armored creature. Your feeble attack has only angered the goblins more. They lunge at your with their battle axes. The blade makes contact and slices into your shoulder. You cry out as the searing pain overtakes your body. You collapse to the ground as the goblins tower over you. You pray for a swift death as the goblins claws begin to rip into you. Your final thought is of your beloved. Did they suffer the same fate at the hands of the goblins? As the world goes black, you are comforted at the possibility of being with your beloved in the afterlife. Game over!`,
+    title: ``,
+  },
   19: { buttons: {}, location: `forest`, text: ``, title: ``, },
   20: { buttons: {}, location: `forest`, text: ``, title: ``, },
   21: { buttons: {}, location: `castle`, text: ``, title: ``, },

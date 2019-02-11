@@ -80,22 +80,22 @@ var checkedStatValue = function(buttonClass, character) {
   }
 };
 
-var imageCheck = function (currentPage) {
-  $("#borfCastle").hide();
-  $("#innImage").hide();
-  $("#forest").hide();
-  $("#throneRoom").hide();
-  $("#placeHolder").hide();
-  if (currentPage > 0 && currentPage < 8) {
-    $("#innImage").show();
-  } else if (currentPage > 7 && currentPage < 21) {
-    $("#forest").show();
-  } else if (currentPage > 20 && currentPage < 59) {
-    $("#borfCastle").show();
-  } else {
-    $("#throneRoom").show();
-  }
-}
+// var imageCheck = function (currentPage) {
+//   $("#borfCastle").hide();
+//   $("#innImage").hide();
+//   $("#forest").hide();
+//   $("#throneRoom").hide();
+//   $("#placeHolder").hide();
+//   if (currentPage > 0 && currentPage < 8) {
+//     $("#innImage").show();
+//   } else if (currentPage > 7 && currentPage < 21) {
+//     $("#forest").show();
+//   } else if (currentPage > 20 && currentPage < 59) {
+//     $("#borfCastle").show();
+//   } else {
+//     $("#throneRoom").show();
+//   }
+// }
 
 var checkedStatName = function(buttonClass, character) {
   if (buttonClass.includes("strength")) {

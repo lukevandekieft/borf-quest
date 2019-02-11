@@ -8,14 +8,17 @@ class Game extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentSection: null,
+      currentSection: 'cabin',
       currentPage: 1,
-      statAgility: null,
+      currentChallenge: null,
+      challengeResult: null,
+      statAgility: 3,
       statCharisma: 1,
-      statIntelligence: null,
+      statIntelligence: 6,
       statStrength: 18,
     }
     this.handleChangePage = this.handleChangePage.bind(this);
+    this.handleChoiceClick = this.handleChoiceClick.bind(this);
   }
 
   handleChangePage(nextPage) {
@@ -25,7 +28,18 @@ class Game extends Component {
     });
   }
 
+  handleChoiceClick(button) {
+    if (typeof button === 'number') {
+      this.handleChangePage(button);
+    } else {
+      this.setState({currentChallenge: button});
+      console.log(this.state.currentChallenge);
+    }
+  }
+
   render() {
+    console.log(Pages[12].buttons['Fight']);
+    console.log(Pages[11].buttons['Hide']);
     return (
       <div className="container-fluid">
         <Header
@@ -41,7 +55,9 @@ class Game extends Component {
         </div>
         <TextDisplay
           currentPage = {this.state.currentPage}
-          onChangePage = {this.handleChangePage}
+          currentChallenge = {this.state.currentChallenge}
+          challengeResult = {this.state.challengeResult}
+          onChoiceClick = {this.handleChoiceClick}
         />
       </div>
     );

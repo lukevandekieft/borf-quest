@@ -6,13 +6,30 @@ class TextDisplay extends Component {
   render() {
     const page = Pages[this.props.currentPage];
     const text = page.text;
-    return (
-      <div className="hidden-story">
+    let content;
+    if (this.props.currentChallenge && !this.props.challengeResult) {
+      content =
+      <React.Fragment>
+        <p>You need good results to Pass</p>
+      </React.Fragment>
+    } else if (this.props.currentChallenge && this.props.challengeResult) {
+      content =
+      <React.Fragment>
+        <p>Your results were such:</p>
+      </React.Fragment>
+    } else {
+      content =
+      <React.Fragment>
         <p>{text}</p>
         {Object.keys(page.buttons).map(index => {
         let button = page.buttons[index];
-          return <button key={index} onClick={()=>{this.props.onChangePage(button)}}>{index}</button>
-      })}
+          return <button key={index} onClick={()=>{this.props.onChoiceClick(button)}}>{index}</button>
+        })}
+      </React.Fragment>
+    }
+    return (
+      <div className="hidden-story">
+        {content}
       </div>
     );
   }
@@ -20,7 +37,9 @@ class TextDisplay extends Component {
 
 TextDisplay.propTypes = {
   currentPage: PropTypes.number.isRequired,
-  onChangePage: PropTypes.func
+  currentChallenge: PropTypes.any,
+  challengeResult: PropTypes.any,
+  onChoiceClick: PropTypes.func
 };
 
 export default TextDisplay;
