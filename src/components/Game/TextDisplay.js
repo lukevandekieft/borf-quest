@@ -4,20 +4,20 @@ import Pages from '../../StoryData';
 
 class TextDisplay extends Component {
   render() {
-    const {currentChallenge} = this.props;
-    const page = Pages[this.props.currentPage];
+    const {challengeResult, currentChallenge, currentPage, onChoiceClick, onDiceRoll, agility, charisma, intelligence, strength} = this.props;
+    const page = Pages[currentPage];
     const text = page.text;
     let content;
-    if (currentChallenge && !this.props.challengeResult) {
+    if (currentChallenge && !challengeResult) {
       content =
       <React.Fragment>
         <p>You need {currentChallenge.attribute} of {currentChallenge.value} to pass. Your current {currentChallenge.attribute} is {this.props[currentChallenge.attribute]}.</p>
-        <button onClick={()=>{this.props.onChoiceClick(this.props.currentChallenge)}}>Roll!</button>
+        <button onClick={()=>{onDiceRoll(currentChallenge)}}>Roll!</button>
       </React.Fragment>
-    } else if (this.props.currentChallenge && this.props.challengeResult) {
+    } else if (currentChallenge && challengeResult) {
       content =
       <React.Fragment>
-        <p>Your results were such:</p>
+        <p>Your results were {challengeResult}</p>
       </React.Fragment>
     } else {
       content =
@@ -25,7 +25,7 @@ class TextDisplay extends Component {
         <p>{text}</p>
         {Object.keys(page.buttons).map(index => {
         let button = page.buttons[index];
-          return <button key={index} onClick={()=>{this.props.onChoiceClick(button)}}>{index}</button>
+          return <button key={index} onClick={()=>{onChoiceClick(button)}}>{index}</button>
         })}
       </React.Fragment>
     }
@@ -38,10 +38,15 @@ class TextDisplay extends Component {
 }
 
 TextDisplay.propTypes = {
-  currentPage: PropTypes.number.isRequired,
-  currentChallenge: PropTypes.any,
   challengeResult: PropTypes.any,
-  onChoiceClick: PropTypes.func
+  currentChallenge: PropTypes.any,
+  currentPage: PropTypes.number.isRequired,
+  onChoiceClick: PropTypes.func,
+  onDiceRoll: PropTypes.func,
+  agility: PropTypes.number,
+  charisma: PropTypes.number,
+  intelligence: PropTypes.number,
+  strength: PropTypes.number,
 };
 
 export default TextDisplay;

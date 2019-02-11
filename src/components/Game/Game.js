@@ -19,6 +19,7 @@ class Game extends Component {
     }
     this.handleChoiceClick = this.handleChoiceClick.bind(this);
     this.handleChangePage = this.handleChangePage.bind(this);
+    this.handleDiceRoll = this.handleDiceRoll.bind(this);
   }
 
   handleChoiceClick(button) {
@@ -37,8 +38,10 @@ class Game extends Component {
     });
   }
 
-  handleDiceRoll(testedStat) {
-    const statName = `stat${testedStat}`;
+  handleDiceRoll(challengeInfo) {
+    console.log(this.state[challengeInfo.attribute]);
+    const roll = Math.floor((Math.random() *20) +1);
+    this.setState({challengeResult: roll + this.state[challengeInfo.attribute]});
   }
 
   render() {
@@ -51,17 +54,18 @@ class Game extends Component {
         />
         <div className="row justify-content-xl-center">
           <CharacterBar
-            agility = {this.state.statAgility}
-            charisma = {this.state.statCharisma}
-            intelligence = {this.state.statIntelligence}
-            strength = {this.state.statStrength}
+            agility = {this.state.agility}
+            charisma = {this.state.charisma}
+            intelligence = {this.state.intelligence}
+            strength = {this.state.strength}
           />
         </div>
         <TextDisplay
-          currentPage = {this.state.currentPage}
-          currentChallenge = {this.state.currentChallenge}
           challengeResult = {this.state.challengeResult}
+          currentChallenge = {this.state.currentChallenge}
+          currentPage = {this.state.currentPage}
           onChoiceClick = {this.handleChoiceClick}
+          onDiceRoll = {this.handleDiceRoll}
           agility = {this.state.agility}
           charisma = {this.state.charisma}
           intelligence = {this.state.intelligence}

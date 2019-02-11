@@ -54,31 +54,31 @@ var statCheck = function (characterStat, statCheckNumber, characterRoll) {
 // FRONTEND
 
 //INN 1-7//
-var storyArray = [[2,3],[4,9],[8,5],[9,6],[8,7],[0,0],[0,0],
-//FOREST 8-20//
-[10],[11],[19,12],[20,13],[15,18,14,18],[17,18,16,18],[48],[48],[21],[21],[0,0],[40],[29],
-//castle 21-58//
-[23,22],[24,25],[24,25],[34,24,34,23,34,24,34,24],[27,28],[34,26,34,26,34,26,34,26],[34,27,34,27,34,27,34,27],[39,59],
-[26,30,26,31,26,32,26,33],[34,30,34,30,34,30,34,30],[34,31,34,31,34,31,34,31],[34,32,34,32,34,32,34,32],[34,33,34,33,34,33,34,33],
-[38,34,36,34,37,34,35,34],[59,39],[59,39],[59,39],[59,39],[59],[42,41],[43,44],[43,44],[53,43,53,43,53,43,53,43],[46,47],
-[53,45,53,45,53,45,53,45],[53,46,53,46,53,46,53,46],[58,72],[45,49,45,50,45,51,45,52],[53,49,53,49,53,49,53,49],
-[53,50,53,50,53,50,53,50],[53,51,53,51,53,51,53,51],[53,52,53,52,53,52,53,52],[57,53,55,53,56,53,54,53],[72,58],[72,58],
-[72,58],[72,58],[72],
-//BORF 59-86//
-[62,60],[61,62],[0,0],[63,64],[65],[65],[66,67],[69,68],[69,68],[69,6],[70,68],[0,0],[0,0],[74,73],[74,61],[75,76],[77,77],
-[77,77],[79,78],[84,80,81,80],[84,80,81,80],[84,81],[84,82],[83,80],[84,81],[85,86],[86],[0,0]]
+// var storyArray = [[2,3],[4,9],[8,5],[9,6],[8,7],[0,0],[0,0],
+// //FOREST 8-20//
+// [10],[11],[19,12],[20,13],[15,18,14,18],[17,18,16,18],[48],[48],[21],[21],[0,0],[40],[29],
+// //castle 21-58//
+// [23,22],[24,25],[24,25],[34,24,34,23,34,24,34,24],[27,28],[34,26,34,26,34,26,34,26],[34,27,34,27,34,27,34,27],[39,59],
+// [26,30,26,31,26,32,26,33],[34,30,34,30,34,30,34,30],[34,31,34,31,34,31,34,31],[34,32,34,32,34,32,34,32],[34,33,34,33,34,33,34,33],
+// [38,34,36,34,37,34,35,34],[59,39],[59,39],[59,39],[59,39],[59],[42,41],[43,44],[43,44],[53,43,53,43,53,43,53,43],[46,47],
+// [53,45,53,45,53,45,53,45],[53,46,53,46,53,46,53,46],[58,72],[45,49,45,50,45,51,45,52],[53,49,53,49,53,49,53,49],
+// [53,50,53,50,53,50,53,50],[53,51,53,51,53,51,53,51],[53,52,53,52,53,52,53,52],[57,53,55,53,56,53,54,53],[72,58],[72,58],
+// [72,58],[72,58],[72],
+// //BORF 59-86//
+// [62,60],[61,62],[0,0],[63,64],[65],[65],[66,67],[69,68],[69,68],[69,6],[70,68],[0,0],[0,0],[74,73],[74,61],[75,76],[77,77],
+// [77,77],[79,78],[84,80,81,80],[84,80,81,80],[84,81],[84,82],[83,80],[84,81],[85,86],[86],[0,0]]
 
-var checkedStatValue = function(buttonClass, character) {
-  if (buttonClass.includes("strength")) {
-    return character.strength;
-  } else if (buttonClass.includes("agility")) {
-    return character.agility;
-  } else if (buttonClass.includes("charisma")) {
-    return character.charisma;
-  } else {
-    return character.intelligence;
-  }
-};
+// var checkedStatValue = function(buttonClass, character) {
+//   if (buttonClass.includes("strength")) {
+//     return character.strength;
+//   } else if (buttonClass.includes("agility")) {
+//     return character.agility;
+//   } else if (buttonClass.includes("charisma")) {
+//     return character.charisma;
+//   } else {
+//     return character.intelligence;
+//   }
+// };
 
 // var imageCheck = function (currentPage) {
 //   $("#borfCastle").hide();
@@ -97,17 +97,17 @@ var checkedStatValue = function(buttonClass, character) {
 //   }
 // }
 
-var checkedStatName = function(buttonClass, character) {
-  if (buttonClass.includes("strength")) {
-    return "strength";
-  } else if (buttonClass.includes("agility")) {
-    return "agility";
-  } else if (buttonClass.includes("charisma")) {
-    return "charisma";
-  } else {
-    return "intelligence";
-  }
-};
+// var checkedStatName = function(buttonClass, character) {
+//   if (buttonClass.includes("strength")) {
+//     return "strength";
+//   } else if (buttonClass.includes("agility")) {
+//     return "agility";
+//   } else if (buttonClass.includes("charisma")) {
+//     return "charisma";
+//   } else {
+//     return "intelligence";
+//   }
+// };
 
 var lowerStat = function(buttonClass, statValue, character) {
   if (buttonClass.includes("strength")) {
