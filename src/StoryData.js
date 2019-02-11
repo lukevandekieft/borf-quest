@@ -170,7 +170,7 @@ const Pages = {
   },
   14: {
     buttons: {
-      'Continue': 49,
+      'Continue': 40,
     },
     location: `forest`,
     text: `The goblins are strong and their size formidable. Without a weapon of your own, you fear certain death. You climb a nearby tree to escape their slimy grip. You breathe a sigh of relief as you find yourself well out of their reach. Thank goodness goblins cannot climb. The tree begins to shake and you hold on for dear life. Looking down, you see the goblins are hacking away at the tree with their axes. You begin to say your final prayers as the goblin’s axe makes a slicing blow to the tree. The tree falls to the forest floor with a deafening thud. You land in a bush, badly scratched and short of breath. In a glorious turn of fate, you rise to see that the tree has fallen and crushed your goblin adversaries. You thank the gods that the goblins were not nearly as smart as they were strong. You quickly move on through the forest.`,
@@ -178,7 +178,7 @@ const Pages = {
   },
   15: {
     buttons: {
-      'Continue': 49,
+      'Continue': 48,
     },
     location: `forest`,
     text: `You win the battle. You claim the spoils of victory as you strip them of their armor and weapons. After all, they won’t be needing it anymore. You quickly move on through the forest.`,
@@ -727,10 +727,37 @@ const Pages = {
   },
   43: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You emerge to find a giant goblin with his pants down, getting ready to sit on your head. The goblin turns around with enraged frustration, and grabs you by the neck. You and Artemesia are carried off and thrown into a dungeon cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell. 
+
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   44: {
@@ -746,18 +773,70 @@ const Pages = {
   },
   45: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `A pair of goblin guards see you, drop their tankards of brown ale and they splatter and splash across the cobblestone hall, completely ignoring all your best efforts and overtures. You are quickly overwhelmed but mercifully taken without a scratch. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell.
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   46: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You hear a violent scream, and a sinewy arms reaches down and grabs you by the hair, yanking you up through the hole. You and Artemesia are carried off and thrown into a dungeon cell.  
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell.
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   47: {
@@ -771,82 +850,270 @@ const Pages = {
   },
   48: {
   buttons: {
-
+    'Dash Past': {
+      attribute: 'agility',
+      value: 18,
+      pass: 45,
+      fail: 49,
+    },
+    'Fight!': {
+      attribute: 'strength',
+      value: 25,
+      pass: 45,
+      fail: 50,
+    },
+    'Try Hiding': {
+      attribute: 'intelligence',
+      value: 18,
+      pass: 45,
+      fail: 51,
+    },
+    "'Hi Fellow Goblin!'": {
+      attribute: 'charisma',
+      value: 15,
+      pass: 45,
+      fail: 52,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You and Artemesia emerge from the forest in full Goblin Armor and smeared with waste and dried blood, but even with the accoutrement you make a scrawny excuse for goblins. 
+
+  An invisible cloud of stench leads you down the road to the Goblin King Borf’s Castle, erupting out of the landscape like a pimple.
+  The castle's drawbridge is down. A single goblin guard is playing checkers against himself. A fly becomes trapped in his ear wax. The goblin reaches up and pulls a few flies from his ear gunk and tosses 'em in his mouth like caramel corn. 
+
+  Artemesia makes a sound of pain, as though he has seen something his huge brain will never let him forget. 
+
+  The goblin looks up dumbly from his game. You must think quickly. What will you do?
+  You could run past him, but he's blocking the way. 
+  You could fight him, but he looks quite strong.
+  You could hide, but unless he's really as stupid as he looks he's probably seen you. 
+  You could talk to him and try to convince him you're goblins.
+  Or you could just walk by casually as if your confidence alone could fool him. 
+
+  Artemesia’s judgmental eyes wait for your stupid decision.`,
   title: ``,
   },
   49: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `Your dash has failed. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell.
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell.
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   50: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You fail to defeat the guard. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell.
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   51: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `The Goblin sees through your shoddy disguise. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell. 
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   52: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You fail to convince the guard of your goblinhood. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell.
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell. 
+
+  “This is all your fault,” Artemesia says unfairly.`,
   title: ``,
   },
   53: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 57,
+      fail: 53,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 55,
+      fail: 53,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 56,
+      fail: 53,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 54,
+      fail: 53,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `Well that didn't go so hot... What now?`,
   title: ``,
   },
   54: {
   buttons: {
-
+    'Go Left': 72,
+    'Go Right': 58,
   },
   location: `castle`,
-  text: ``,
+  text: `You use your Herculean strength to break the rusty chains with your bare hands. The guard jumps up in surprise but you put your hands right back to work on their throat. The Goblin convulses and gurgles, eventually coming to sweet, sweet rest after a pitiful, pitiful life. You grab the keys and you and Arty ('Don't call me that!') are free in the halls of Borf’s castle. 
+
+  Which way do you go?`,
   title: ``,
   },
   55: {
   buttons: {
-
+    'Go Left': 72,
+    'Go Right': 58,
   },
   location: `castle`,
-  text: ``,
+  text: `You use your agile fingers slide off your handcuffs and then bide your time. When the guard falls asleep you silently get up and slip the ring of keys from their belt. For a moment you imagine the punishment this goblin will receive for letting you go, but you decide you don't feel sorry for him. His death would be a sweet, sweet relief from a pitiful, pitiful life. 
+  You insert the key with such supple delicacy that you are reminded of your lost love.Your nimble fingers continue their magic and turn the key with nary a jangle.
+  You and Artemesia are free in the halls of Borf’s castle. 
+
+  Which way do you go?`,
   title: ``,
   },
   56: {
   buttons: {
-
+    'Go Left': 72,
+    'Go Right': 58,
   },
   location: `castle`,
-  text: ``,
+  text: `You study the primitive bindings on your hand and realize they're easy pickings. Your huge brain gets to work as you slowly work the cuffs with a small bone lying nearby. The lock clicks open, the sleeping giant snorts in their sleep, and then you're up and on your way.
+
+  Artemesia appraises you with a newfound appreciation. He will remember this. 
+
+  You and Artemesia are free in the halls of Borf’s castle. 
+
+  Which way do you go?`,
   title: ``,
   },
   57: {
   buttons: {
-
+    'Go Left': 72,
+    'Go Right': 58,
   },
   location: `castle`,
-  text: ``,
+  text: `You use your rugged worldliness on the simple Goblin guard.
+  “There is more world out there than you know,” you tell the pitiful excuse for a creature who doesn't deserve any amount of anthropomorphizing. “Just do this one weird trick, and women will fawn over your huge Goblin strength.”
+  “Tell me,” the Goblin begs and begs.  The only way you’ll tell him is if he leaves the key with you.
+  “Every day you must do something you’re afraid of.  Ask someone out, even if you know they'll say no. And the more you fail the more you will succeed. Now go, find your future love slave.” 
+
+  The goblin runs off, and you use the key to open the cell door. 
+
+    Artemesia appraises you with a newfound disapproval. He will remember this.
+    You and Artemesia are free in the halls of Borf’s castle.
+    Which way do you go?`,
   title: ``,
   },
   58: {
