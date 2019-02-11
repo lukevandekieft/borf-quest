@@ -218,7 +218,7 @@ const Pages = {
   },
   20: {
     buttons: {
-      'Continue': 30,
+      'Continue': 29,
     },
     location: `forest`,
     text: `You remain as quiet as possible as you duck in the underbrush. Unfortunately, you chose a hiding place that was also home to a nest of poisonous spiders. You stay still and bite your tongue while enduring the searing pain of the spider bites. After what seems like hours, the goblin sentries are finally out of sight. You have evaded danger for now, but the poison has taken a toll on your health. You wince through the pain as you continue through the forest.`,
@@ -270,10 +270,30 @@ const Pages = {
   },
   24: {
   buttons: {
-    'Talk to Guard':
-    'Squeeze out of Shackles':
-    'Use Bones to Pick Lock':
-    'Break Chains':
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
   text: `You emerge to find a giant goblin with his pants down, getting ready to sit on your head. The goblin turns around with enraged frustration, and grabs you by the neck. You and Bootstrap are carried off and thrown into a dungeon cell. 
@@ -296,24 +316,82 @@ const Pages = {
   },
   26: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `A pair of goblin guards see you, drop their tankards of brown ale and they splatter and splash across the cobblestone hall, completely ignoring all your best efforts and overtures. You are quickly overwhelmed but mercifully taken without a scratch.
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell. 
+
+  'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
+
+  “Wait,” you say to him before he poisons himself. “There’s a way.”`,
   title: ``,
   },
   27: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You hear a violent scream, and a sinewy arms reaches down and grabs you by the hair, yanking you up through the hole. You and Bootstrap are carried off and thrown into a dungeon cell.   
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell. 
+
+  'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
+
+  “Wait,” you say to him before he poisons himself. “There’s a way.”`,
   title: ``,
   },
   28: {
   buttons: {
     'Go Left': 39,
-    'Go Right': 59
+    'Go Right': 59,
   },
   location: `castle`,
   text: `The goblin leaves, and the holes are once again clear. You climb up into the goblin latrine and peer out the door. You are free in Borf's halls. The hallway leads off in two directions.`,
@@ -321,82 +399,278 @@ const Pages = {
   },
   29: {
   buttons: {
-
+    'Dash Past': {
+      attribute: 'agility',
+      value: 18,
+      pass: 26,
+      fail: 30,
+    },
+    'Fight!': {
+      attribute: 'strength',
+      value: 25,
+      pass: 26,
+      fail: 31,
+    },
+    'Try Hiding': {
+      attribute: 'intelligence',
+      value: 18,
+      pass: 26,
+      fail: 32,
+    },
+    "'Hi Fellow Goblin!'": {
+      attribute: 'charisma',
+      value: 15,
+      pass: 26,
+      fail: 33,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You and Bootstrap emerge from the forest in full Goblin Armor and smeared with waste and dried blood, but even with the accoutrement you make a scrawny excuse for goblins. 
+
+  An invisible cloud of stench leads you down the road to the Goblin King Borf’s Castle, erupting out of the landscape like a pimple. 
+
+  The castle's drawbridge is down. A single goblin guard is playing checkers against himself. A fly becomes trapped in his ear wax. The goblin reaches up and pulls a few flies from his ear gunk and tosses 'em in his mouth like caramel corn. Bootstrap licks his hairy lips which makes bile creep up your throat. But your lost love is all that’s on your mind. 
+
+  The goblin looks up dumbly from his game. You must think quickly. What will you do? 
+
+  You could run past him, but he's blocking the way. 
+
+  You could fight him, but he looks quite strong. 
+
+  You could hide, but unless he's really as stupid as he looks he's probably seen you. 
+
+  You could talk to him and try to convince him you're goblins. 
+  Or you could just walk by casually as if your confidence alone could fool him.`,
   title: ``,
   },
   30: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `Your dash has failed. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell. 
+  'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
+
+  “Wait,” you say to him before he poisons himself. “There’s a way.”`,
   title: ``,
   },
   31: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You fail to defeat the guard. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell.
+  'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
+
+  “Wait,” you say to him before he poisons himself. “There’s a way.”`,
   title: ``,
   },
   32: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `The Goblin sees through your shoddy disguise. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell. 
+  'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
+
+  “Wait,” you say to him before he poisons himself. “There’s a way.”`,
   title: ``,
   },
   33: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `You fail to convince the guard of your goblin hood. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
+
+  You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell. 
+
+  'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
+
+  “Wait,” you say to him before he poisons himself. “There’s a way.”`,
   title: ``,
   },
   34: {
   buttons: {
-
+    'Talk to Guards': {
+      attribute: 'charisma',
+      value: 15,
+      pass: 38,
+      fail: 34,
+    },
+    'Slip Out of Shackles': {
+      attribute: 'agility',
+      value: 15,
+      pass: 36,
+      fail: 34,
+    },
+    'Pick Locks': {
+      attribute: 'intelligence',
+      value: 15,
+      pass: 37,
+      fail: 34,
+    },
+    'Break Chains - RAWWWHRR!': {
+      attribute: 'strength',
+      value: 15,
+      pass: 35,
+      fail: 34,
+    }
   },
   location: `castle`,
-  text: ``,
+  text: `Well that didn't go so hot... What now?`,
   title: ``,
   },
   35: {
   buttons: {
-
+    'Go Left': 39,
+    'Go Right': 59,
   },
   location: `castle`,
-  text: ``,
+  text: `You use your Herculean strength to break the rusty chains with your bare hands. The guard jumps up in surprise but you put your hands right back to work on their throat. The Goblin convulses and gurgles, eventually coming to sweet, sweet rest after a pitiful, pitiful life. You grab the keys and you and Bootstrap are free in the halls of Borf’s castle.
+  Which way do you go?`,
   title: ``,
   },
   36: {
   buttons: {
-
+    'Go Left': 39,
+    'Go Right': 59,
   },
   location: `castle`,
-  text: ``,
+  text: `You use your agile fingers slide off your handcuffs and then bide your time. When the guard falls asleep you silently get up and slip the ring of keys from their belt. For a moment you imagine the punishment this goblin will receive for letting you go, but you decide you don't feel sorry for him. His death would be a sweet, sweet relief from a pitiful, pitiful life. 
+  You insert the key with such supple delicacy that you are reminded of your lost love. “I like the way you use your hands,” Bootstrap whispers as he sucks in some drool. Your nimble fingers continue their magic and turn the key with nary a jangle.
+  You and Bootstrap are free in the halls of Borf’s castle. 
+  Which way do you go?`,
   title: ``,
   },
   37: {
   buttons: {
-
+    'Go Left': 39,
+    'Go Right': 59,
   },
   location: `castle`,
-  text: ``,
+  text: `You study the primitive bindings on your hand and realize they're easy pickings. Your huge brain gets to work as you slowly work the cuffs with a small bone lying nearby. The lock clicks open, the sleeping giant snorts in their sleep, and then you're up and on your way.
+
+  You and Bootstrap are free in the halls of Borf’s castle. 
+
+  Which way do you go?`,
   title: ``,
   },
   38: {
   buttons: {
-
+    'Go Left': 39,
+    'Go Right': 59,
   },
   location: `castle`,
-  text: ``,
+  text: `You use your rugged worldliness on the simple Goblin guard.
+  “There is more world out there than you know,” you tell the pitiful excuse for a creature who doesn't deserve any amount of anthropomorphizing. “Just do this one weird trick, and women will fawn over your huge Goblin strength.”
+  “Tell me,” the Goblin begs and begs.  The only way you’ll tell him is if he leaves the key with you.
+  “Every day you must do something you’re afraid of.  Ask someone out, even if you know they'll say no. And the more you fail the more you will succeed. Now go, find your future love slave.” 
+
+  The goblin runs off, and you use the key to open the cell door. 
+
+  You and Bootstrap are free in the halls of Borf’s castle. 
+
+  “Does that weird trick really work?” Bootstrap asks.
+  Which way do you go?`,
   title: ``,
   },
   39: {

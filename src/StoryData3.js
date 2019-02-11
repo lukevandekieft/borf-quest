@@ -1,161 +1,5 @@
 
-    <div id="24">
-      <p className="hidden"></p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page 34*/}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page 34*/}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page 34*/}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page 34*/}
-    </div>
-    </div>
-    <div id="26">
-      <p className="hidden">A pair of goblin guards see you, drop their tankards of brown ale and they splatter and splash across the cobblestone hall, and they run after you at a surprising speed. They grab you by the hair and throw you in a cell. 
 
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell. 
-
-        'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-        “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page 34*/}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page 34*/}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page 34*/}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page 34*/}
-    </div>
-    <div id="27">
-      <p className="hidden">You hear a violent scream, and a sinewy arms reaches down and grabs you by the hair, yanking you up through the hole. You and Bootstrap are carried off and thrown into a dungeon cell.   
-
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard somehow smells worse than the sewage, and is dozing off outside the cell. 
-
-        'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-        “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page 34*/}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page 34*/}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page 34*/}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page 34*/}
-    </div>
-    <div id="29">
-      <p className="hidden">You and Bootstrap emerge from the forest in full Goblin Armor and smeared with waste and dried blood, but even with the accoutrement you make a scrawny excuse for goblins. 
-
-        An invisible cloud of stench leads you down the road to the Goblin King Borf’s Castle, erupting out of the landscape like a pimple. 
-
-        The castle's drawbridge is down. A single goblin guard is playing checkers against himself. A fly becomes trapped in his ear wax. The goblin reaches up and pulls a few flies from his ear gunk and tosses 'em in his mouth like caramel corn. Bootstrap licks his hairy lips which makes bile creep up your throat. But your lost love is all that’s on your mind. 
-
-        The goblin looks up dumbly from his game. You must think quickly. What will you do? 
-
-        You could run past him, but he's blocking the way. 
-
-        You could fight him, but he looks quite strong. 
-
-        You could hide, but unless he's really as stupid as he looks he's probably seen you. 
-
-        You could talk to him and try to convince him you're goblins.  
-        Or you could just walk by casually as if your confidence alone could fool him.</p>
-      <button type="button" className="stat agility option1" value = "25">Dash through</button> {/* go to page true 26 for false 30 */}
-      <button type="button" className="stat strength option2" value = "25">Fight</button> {/* go to page 26 for true 31 false */}
-      <button type="button" className="stat intelligence option3" value = "25">Hide</button> {/* go to page go to page 26 for true 32 false */}
-      <button type="button" className="stat charisma option4" value = "25">Talk</button> {/* go to page go to page 26 for true 33 false */}
-      <button type="button" className="a">Walk by casually</button> {/* go to page stat charisma option 4 value <= 40*/}
-
-    </div>
-    <div id="30">
-      <p className="hidden">Your dash has failed. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
-
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell.  
-        'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-        “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page true 34 false 30 */}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page true 34 false 30 */}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page true 34 false 30 */}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page page true 34 false 30 */}
-    </div>
-    <div id="31">
-      <p className="hidden">You fail to defeat the guard. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
-
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell.  
-      'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-      “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page true 34 false 31 */}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page true 34 false 31 */}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page true 34 false 31 */}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page page true 34 false 31 */}
-    </div>
-    <div id="32">
-      <p className="hidden">The Goblin sees through your shoddy disguise. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
-
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell.  
-        'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-      “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page true 34 false 32 */}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page true 34 false 32 */}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page true 34 false 32 */}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page page true 34 false 32 */}
-    </div>
-    <div id="33">
-      <p className="hidden">You fail to convince the guard of your goblin hood. The goblin’s checkers scatter across the drawbridge, and he runs after you at a surprising speed. He grabs you by the hair and throws you in a cell. 
-
-        You are made to kneel, shackled with a rusty chain against the wall. Sharp bones of the previous inhabitant poke holes in your pants and lacerate your shins and your gluteus maximus. The guard smells worse than sewage, and is dozing off outside the cell. 
-
-        'Well, I guess it’s finally o’er,” Bootstrap says to you with glee as he prepares to drink from his flask. 
-
-        “Wait,” you say to him before he poisons himself. “There’s a way.”</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page true 34 false 33 */}
-      <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page true 34 false 33 */}
-      <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page true 34 false 33 */}
-      <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page page true 34 false 3 */}
-    </div>
-    <div id="34">
-      <p className="hidden">You make it out of the shackles, and now you are loose in your cell.  
-        Among the pile of bones a huge goblin femur is cracked into a sharp weapon. 
-        Outside the guard snoozes, and his keys hang jangly from his belt, just within reach.  
-        In the upper corner of the cell, behind some cobwebs, a cryptic code has been scrawled in arcane mathematical symbols.</p>
-      <button type="button" className="stat charisma option1" value = "25">Talk to guard</button> {/* go to page true 38 false 34 */}
-      <button type="button" className="stat agility option2" value = "25">Steal keys</button> {/* go to page true 36 false 34 */}
-      <button type="button" className="stat intelligence option3" value = "25">Decipher code</button> {/* go to page true 37 false 34*/}
-      <button type="button" className="stat strength option4" value = "25">Stab guard</button> {/* go to page true 35 false 34*/}
-    </div>
-    <div id="35">
-      <p className="hidden">You use your strength to pierce the goblin’s chest from the back all the way out the front. He jumps up, but the bone gets stuck in the bars and the Goblin convulses and gurgles, eventually coming to sweet, sweet rest after a pitiful, pitiful life. You grab the keys and you and Bootstrap are free in the halls of Borf’s castle.  
-        Which way do you go?</p>
-      <button type="button" className="a">Left</button> {/* go to page 40*/}
-      <button type="button" className="b">Right</button> {/* go to page 39*/}
-    </div>
-    <div id="36">
-      <p className="hidden">You use your agile fingers to silently slip the ring of keys from the slumbering goblin’s belt. For a moment you imagine the punishment this goblin will receive for letting us go, and you don't feel sorry for him. His death would be a sweet, sweet relief from a pitiful, pitiful life.    
-        You insert the key with such supple delicacy your reminded of your lost love. “I like the way you use your hands,” Bootstrap whispers as he sucks in some drool. Your nimble fingers continue their magic and turn the key with nary a jangle.  
-        You and Bootstrap are free in the halls of Borf’s castle.  
-        Which way do you go?</p>
-      <button type="button" className="a">Left</button> {/* go to page 40*/}
-      <button type="button" className="b">Right</button> {/* go to page 39*/}
-    </div>
-    <div id="37">
-      <p className="hidden">Your advanced intelligence allows you to decrypt the hidden message. “Behind the fourth stone on the left lies a carved goblin bone capable of opening the door when inserted at a 16 degree angle.” 
-
-        You uncover the bone key and your huge brain estimates the correct angle. The lock clicks open, and the sleeping giant snorts, and falls back asleep. 
-
-        You and Bootstrap are free in the halls of Borf’s castle. 
-
-      Which way do you go?</p>
-      <button type="button" className="a">Left</button> {/* go to page 40*/}
-      <button type="button" className="b">Right</button> {/* go to page 39*/}
-    </div>
-    <div id="38">
-      <p className="hidden">You use your rugged worldliness on the simple Goblin. 
-        “There is more world out there than you know,” you tell the pitiful excuse for a creature who doesn't deserve any amount of anthropomorphizing. “Just do this one weird trick, and women will fawn over your huge Goblin strength.” 
-        “Tell me,” the Goblin begs and begs.  The only way you’ll tell him is if he leaves the key with you.  
-        “Every day you must do something you’re afraid of.  Ask someone out, even if you know they'll say no. And the more you fail the more you will succeed. Now go, find your future love slave.” 
-
-        The goblin runs off, and you use the key to open the cell door. 
-
-        You and Bootstrap are free in the halls of Borf’s castle. 
-
-        “Does that weird trick really work?” Bootstrap asks.  
-      Which way do you go?</p>
-      <button type="button" className="a">Left</button> {/* go to page 40*/}
-      <button type="button" className="b">Right</button> {/* go to page 39*/}
-    </div>
     <div id="43">
       <p className="hidden">You emerge to find a giant goblin with his pants down, getting ready to sit on your head. The goblin turns around with enraged frustration, and grabs you by the neck. You and Artemesia are carried off and thrown into a dungeon cell. 
 
