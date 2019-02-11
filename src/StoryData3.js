@@ -156,25 +156,6 @@
       <button type="button" className="a">Left</button> {/* go to page 40*/}
       <button type="button" className="b">Right</button> {/* go to page 39*/}
     </div>
-
-    <div id="41">
-      <p className="hidden">You realize you were kidding yourself that you could pull off such a stunt. And surely Artemesia would not have followed.   
-
-        The sewer is not the worst place you’ve ever been. After all, at least it's not promising to be anything it's not. 
-
-        You slip and fall and slide a good twenty feet before scrambling back to your feet. You've been soiled. Oh well. After the loss of your love you now look on the outside like you feel on the inside. 
-
-      You journey deep into the sewer and find a set of holes several feet above you letting in light, just big enough to squeeze through.</p>
-      <button type="button" className="a">Climb up</button> {/* go to page */}
-      <button type="button" className="b">Wait under hole</button> {/* go to page */}
-    </div>
-    <div id="42">
-      <p className="hidden">You immediately fall into the moat of sewage. How did you ever think you could have pulled that off? Artemesia snickers at you, but he's not spic and span either. You wallow over to him as best you can, and climb up to the sewer. You’re covered from head to toe, but after the loss of your love you now look on the outside like you feel on the inside. 
-
-      You journey deep into the sewer and find a set of holes several feet above you letting in light, just big enough to squeeze through.</p>
-      <button type="button" className="a">Climb up</button> {/* go to page */}
-      <button type="button" className="b">Wait under hole</button> {/* go to page */}
-    </div>
     <div id="43">
       <p className="hidden">You emerge to find a giant goblin with his pants down, getting ready to sit on your head. The goblin turns around with enraged frustration, and grabs you by the neck. You and Artemesia are carried off and thrown into a dungeon cell. 
 
@@ -185,13 +166,6 @@
       <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page */}
       <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page */}
       <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page */}
-    </div>
-    <div id="44">
-      <p className="hidden">One of the holes above you darkens, and a rude noise is followed by a rush of waste which fills your eye sockets. You wipe your eyes and see the hole covered above you. What do you do? 
-
-      Artemesia’s judgmental eyes wait for your stupid decision.</p>
-      <button type="button" className="a">Stick word in hole</button> {/* go to page */}
-      <button type="button" className="b">Wait under hole</button> {/* go to page */}
     </div>
     <div id="45">
       <p className="hidden">A pair of goblin guards see you, drop their tankards of brown ale and they splatter and splash across the cobblestone hall, and they run after you at a surprising speed. They grab you by the hair and throw you in a cell. 
@@ -212,11 +186,6 @@
       <button type="button" className="stat agility option2" value = "25">Squeeze out of shackles</button> {/* go to page */}
       <button type="button" className="stat intelligence option3" value = "25">Use bones to pick lock</button> {/* go to page */}
       <button type="button" className="stat strength option4" value = "25">Break Chains</button> {/* go to page */}
-    </div>
-    <div id="47">
-      <p className="hidden">The goblin leaves, and the holes are once again clear. You climb up into the goblin latrine and peer out the door. You are free in Borf's halls. The hallway leads off in two directions.</p>
-      <button type="button" className="a">Left</button> {/* go to page */}
-      <button type="button" className="b">Right</button> {/* go to page */}
     </div>
     <div id="48">
       <p className="hidden">You and Artemesia emerge from the forest in full Goblin Armor and smeared with waste and dried blood, but even with the accoutrement you make a scrawny excuse for goblins. 
@@ -335,84 +304,4 @@
         Which way do you go?</p>
       <button type="button" className="a">Left</button> {/* go to page */}
       <button type="button" className="b">Right</button> {/* go to page */}
-    </div>
-    <div id="58">
-      <p className="hidden">You find the goblin armory. In the center of the room, elevated above all other gear, is a golden sword and shield, and a glistening suit of golden armor. “It’s approximately your size,” Artemesia says, and helps it on.  
-      You and Artemesia rush off down the hallway, and you approach the giant door which will surely lead to the Goblin King Borf’s throne room.</p>
-      <button type="button" className="a">Enter Borf's Throne Room</button> {/* go to page */}
-    </div>
-    <div id="72">
-      <p className="hidden">From here the disgusting rumbling of The Goblin King Borf's belly can be heard. Artemisia seems like he knows the way. You wonder how he knows so much. He really has studied some very esoteric knowledge. You progress through the castle corridors towards Borf's lair. It seems eerily quiet. The throne room door is ajar... should you enter the throne room or just leave?</p>
-      <button type="button" className="a">Enter</button> {/* go to page 74 */}
-      <button type="button" className="b">Leave</button> {/* go to page 73 */}
-    </div>
-    <div id="73">
-      <p className="hidden">You are paralyzed with fear and decide to go back to the pub and just hope for the best. Unless you overcome your fear now and face Borf this is the end of your quest and your designation as a hero.
-        Do you go back to the pub or continue the quest?</p>
-      <button type="button" className="a">Continue</button> {/* go to page 74 */}
-      <button type="button" className="b">Pub</button> {/* go to page 61 */}
-    </div>
-    <div id="74">
-      <p className="hidden">You quietly approach the door to Borf's lair. It smells like burnt toast and soured ranch dressing. As you push the door open the hinge creaks, announcing your arrival. Borf sits upon his throne, glaring at you and Artemisia. You feel like you've been waiting your whole life for this one moment. With the lights low and the curtains open you fear you may be on the verge of just blowing it.
-        You look around the room and notice your dead lover Jaime on a ritual table. Enraged, you find the strength to push forward. Borf declares he will resurrect Jaime and unleash unknown horrors upon the earth. There is literally a bucket of ranch dressing and a pile of toast nearby on the floor.
-        Borf gets up from the throne and points his staff your direction. His eyes turn red with fury. He yells "Now you die!!!" You and Artemisia sense there is danger incoming and step aside just as a fireball soars past. Artemisia says "Now is our chance!" and awaits your next move. Do you launch the bucket of ranch dressing at Borf or lead the charge and attack?</p>
-      <button type="button" className="a">Ranch</button> {/* go to page 75 */}
-      <button type="button" className="b">Attack</button> {/* go to page 76 */}
-    </div>
-    <div id="75">
-      <p className="hidden">In one swift movement you swipe up the ranch dressing and hurl it at Borf's head. The Goblin King is amused with your decision and hits it back your way with his staff. You have been covered with cool ranch dressing. Artemisia attacks the sidetracked Borf and lands a direct hit.</p> {/*stat check to determine if Borf is dead*/}
-      <button type="button" className="stat strength option1" value="50">Continue</button> {/* go to page 77*/}
-    </div>
-    <div id="76">
-      <p className="hidden">You do not have time for a food fight. This is serious business here. You lead the attack with Artemisia by your side. </p>{/*stat check to determine if Borf is dead from Artemisia and heros stats*/}
-      <button type="button" lass="stat strength option1" value="50">Attack</button> {/* go to page 77*/}
-    </div>
-    <div id="77">
-      <p className="hidden">Borf withstands the attack though his flaming eyes of fury have cooled. Artemisia whispers "He will not be able to cast a fireball until his eyes are red again." He can however hit you in the face with it directly. Borf swings his magic staff at your head. </p>{/*Agility roll to determine if the hero gets hit with staff -if hit: Strength and Intelligence roll to withstand it(reduce strength and intelligence stat if fail)
-      */}
-      <button type="button" className="stat agility option1" value="20">Dodge?</button> {/* go to page- true 78 fail 79*/}
-    </div>
-    <div id="78">
-      <p className="hidden">You withstand the attack and are confused. Artemisia is again waiting for you to attack. It seems like he is afraid or something. Do you lead the attack or tell Artemisia to "Do something!"?</p>
-      <button type="button" className="stat strength option1" value="20">Attack</button> {/* go to page 80 */}
-      <button type="button" className="stat intelligence option2" value="20">Artemisia!</button> {/* go to page 81 */}
-    </div>
-    <div id="79">
-      <p className="hidden">You gracefully dodge the staff attack from Borf. Do you lead the attack or tell Artemisia to "Do something!"?</p>
-      <button type="button" className="stat strength option1" value="20">Attack</button> {/* go to page 80 */}
-      <button type="button" className="stat intelligence option2" value="20">Artemisia!</button> {/* go to page 81 */}
-    </div>
-
-    <div id="80">
-      <p className="hidden">You lead the attack with Artemisia!</p> {/*dice roll to determine if Borf is dead. go to 84 true, 81*/}
-      <button type="button" className="stat agility option1" value="20">Attack</button> {/* go to page-7 */}
-    </div>
-    <div id="81">
-      <p className="hidden">You turn to your companion, Artemisia, and yell "DO SOMETHING!!" Artemisia attacks first!</p> {/*dice roll to determine if Borf is dead*/}
-      <button type="button"  className="stat agility option1" value="20">Attack</button> {/* go to 84, 82 */}
-    </div>
-    <div id="82">
-      <p className="hidden">The Goblin King survives the attack and has rekindled his flaming eyes of fury. He points his staff your direction and casts a fireball at your head. You could see this one coming from, like 10 feet away. You hit the deck as the fireball sours over.</p>{/*dice roll to dodge*/}
-      <button type="button" className="stat agility option1" value="20">Dodge</button> {/* go to 83 */}
-    </div>
-    <div id="83">
-      <p className="hidden">Artemisia leads the return attack with you following close behind.</p> {/*dice roll to determine if Borf is dead*/}
-      <button type="button" className="stat agility option1" value="20">Attack</button> {/* go to page 84, 81 */}
-    </div>
-    <div id="84">
-      <p className="hidden">You have defeated the terrible Goblin King Borf. His gross behavior can no longer unleash terror upon the earth. He manages to utter one last menacing threat: "You haven't seen the last of me..." and then hands you a glamor shot of his likeness and expires. His foul plan to resurrect Jaime and open the doors to the underworld will die with him... so it would seem.
-      Artemisia snatches up the magic staff. He turns to you and with a wry smile says "Hey, buddy. Thanks for helping me acquire the magic staff. I'm going to kill you and resurrect Jaime myself. With your undead lost lover by my side I will complete the ritual to open the doors to the underworld and unleash unknown horrors upon the earth. I'm not a goblin but I promise you I can be an excellent Goblin King!!! Now you die!"
-      Artemisia attempts to cast a fireball but instead the magic staff lobs a glob of ranch dressing at you. That's where that stuff comes from!? You have been covered in cool ranch dressing. Attack Artemisia or fling ranch dressing at them?</p>
-      <button type="button" className="a">Ranch</button> {/* go to page 85 */}
-      <button type="button" className="b">Attack</button> {/* go to page 86 */}
-    </div>
-    <div id="85">
-      <p className="hidden">You scoop a handful of cool ranch dressing from your face and hurl it at your worthy adversary. Artemisia is hit in the face with cool ranch dressing and is confused.</p>
-      <button type="button" className="a">Attack</button> {/* go to page 86 */}
-    </div>
-    <div id="86">
-      <p className="hidden">You attack and kill Artemisia with ease! You are truly the stuff heroes are made of.
-        Tear in eye you take one last look at Jaime Jquiria. They would have made a lovely undead Goblin Royalty. They made a wonderful normal alive-human-true-love partner. Alas, that ship has sailed.
-        You gather a small fortune in treasure and light the castle on fire as you leave. Tossing Borf's glamor shot in the fire you laugh out loud. The hero's journey has many branches and you have walked the path to victory. Fortune smiles upon thee. {`<3`}</p>
-      <button type="button" className="replay">Play Again</button> {/* go to splash page */}
     </div>
